@@ -1,4 +1,4 @@
-
+﻿
 
 /* Seafile */
 "%@ can't verify the identity of the website \"%@\"" = "%1$@ kann die Identität der Website „%2$@“ nicht überprüfen";
@@ -182,7 +182,7 @@
 "Choose directory" = "Ordner auswählen";
 
 /* Seafile */
-"Choose a Seafile server" = "Wählen Sie einen LuckyCloud-Server";
+"Choose a Seafile server" = "Wählen Sie einen luckycloud-Server";
 
 /* Seafile */
 "Choose an account to start" = "Bitte wählen Sie ein Konto aus";

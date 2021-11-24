@@ -1,4 +1,4 @@
-
+﻿
 
 /* Seafile */
 "%@ can't verify the identity of the website \"%@\"" = "%1$@님이 \"%2$@\" 웹사이트 신원을 검증할 수 없습니다.";
@@ -181,7 +181,7 @@
 "Choose directory" = "Choose directory";
 
 /* Seafile */
-"Choose a Seafile server" = "LuckyCloud 서버를 선택하세요";
+"Choose a Seafile server" = "luckycloud 서버를 선택하세요";
 
 /* Seafile */
 "Choose an account to start" = "시작할 계정을 선택하세요";

@@ -1,4 +1,4 @@
-
+﻿
 
 /* Seafile */
 "%@ can't verify the identity of the website \"%@\"" = "%1$@ nem tudja azonosítani a weboldalt: \"%2$@\"";
@@ -181,7 +181,7 @@
 "Choose directory" = "Choose directory";
 
 /* Seafile */
-"Choose a Seafile server" = "Válassz LuckyCloud szervert";
+"Choose a Seafile server" = "Válassz luckycloud szervert";
 
 /* Seafile */
 "Choose an account to start" = "Induló fiók kiválasztása";
