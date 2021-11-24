@@ -1,0 +1,1069 @@
+﻿
+
+/* Seafile */
+"%@ can't verify the identity of the website \"%@\"" = "%1$@ nem tudja azonosítani a weboldalt: \"%2$@\"";
+
+/* Seafile */
+"%@ does not support to preview file of this kind at the moment." = "Jelen pillanatban a(z) %@ nem tud előképet mutatni ebből a fájltípusból.";
+
+/* Seafile */
+"%@ invite you to %@" = "%1$@ meghívta ide: %2$@";
+
+/* Seafile */
+"%@, Uploaded %@" = "%1$@, Feltöltve: %2$@";
+
+/* Seafile */
+"%@, uploading" = "%@ feltöltés alatt";
+
+/* Seafile */
+"%@, waiting to upload" = "%@, feltöltésre vár";
+
+/* Seafile */
+"%ld photos remain" = "%ld fénykép van hátra";
+
+/* Seafile */
+"%ld files are uploaded to Seafile" = "%ld files are uploaded to Seafile";
+
+/* Seafile */
+"1 photo remain" = "1 fénykép van hátra";
+
+/* Seafile */
+"%ld days ago" = "%ld days ago";
+
+/* Seafile */
+"%ld hours ago" = "%ld hours ago";
+
+/* Seafile */
+"%ld minutes ago" = "%ld minutes ago";
+
+/* Seafile */
+"%ld months ago" = "%ld months ago";
+
+/* Seafile */
+"%ld years ago" = "%ld years ago";
+
+/* Seafile */
+"a day ago" = "a day ago";
+
+/* Seafile */
+"a few seconds ago" = "a few seconds ago";
+
+/* Seafile */
+"an hour ago" = "an hour ago";
+
+/* Seafile */
+"a minute ago" = "a minute ago";
+
+/* Seafile */
+"a month ago" = "a month ago";
+
+/* Seafile */
+"a year ago" = "a year ago";
+
+/* Seafile */
+"A file with the same name already exists, do you want to overwrite?" = "Létezik fájl ezzel a névvel, cseréljem?";
+
+/* Seafile */
+"About" = "Névjegy";
+
+/* Seafile */
+"Account" = "Fiók";
+
+/* Seafile */
+"Account Info" = "Fiók információ";
+
+/* Seafile */
+"Accounts" = "Fiókok";
+
+/* Seafile */
+"Activities" = "Tevékenységek";
+
+/* Seafile */
+"Activity" = "Tevékenység";
+
+/* Seafile */
+"Add a new discussion" = "Új megbeszélés hozzáadása";
+
+/* Seafile */
+"Add account" = "Fiók hozzáadása";
+
+/* Seafile */
+"Add contact" = "Kapcsolat hozzáadása";
+
+/* Seafile */
+"Added" = "Hozzáadva";
+
+/* Seafile */
+"Added directory" = "Könyvtár hozzáadva";
+
+/* Seafile */
+"Added file" = "Fájl hozzáadva";
+
+/* Seafile */
+"Added or modified" = "Hozzáadva vagy módosítva";
+
+/* Seafile */
+"All photos synced" = "Minden fénykép szinkronizálva";
+
+/* Seafile */
+"Are you sure to clear all the cache?" = "Biztos, hogy törli a gyorsítótárat ?";
+
+/* Seafile */
+"Are you sure to cancel all downloading tasks?" = "Are you sure to cancel all downloading tasks?";
+
+/* Seafile */
+"Are you sure to cancel all uploading tasks" = "Are you sure to cancel all uploading tasks";
+
+/* Seafile */
+"Are you sure to log out?" = "Biztos, hogy kilép?";
+
+/* Seafile */
+"Are you sure you want to delete %@ ?" = "Are you sure you want to delete %@ ?";
+
+/* Seafile */
+"Are you sure to save all photos to album?" = "Are you sure to save all photos to album";
+
+/* Seafile */
+"Auto Upload" = "Automatikus feltöltés";
+
+/* Auto cleay library password */
+"Auto clear passwords" = "Jelszó automatikus elfelejtése";
+
+/* Seafile */
+"Auto merge by seafile system" = "Seafile rendszer automatikusan összefűzte";
+
+/* Seafile */
+"Auto upload should be enabled first." = "Először engedélyezni kell az automatikus feltöltést.";
+
+/* Seafile */
+"Back" = "Vissza";
+
+/* Seafile */
+"Back to Last Account" = "Vissza az utolsó fiókhoz";
+
+/* Seafile */
+"Background Upload" = "Feltöltés a háttérben";
+
+/* Seafile */
+"Backup Contacts" = "Ismerősök mentése";
+
+/* Seafile */
+"Cache" = "Gyorsítótár";
+
+/* FolderView_iPad.storyboard */
+"Camera Upload" = "Fényképezőgép feltöltés";
+
+/* Seafile */
+"Can not remove certificate because it is still in use" = "Nem lehet törölni a tanúsítványt mert még használatban van";
+
+/* Seafile */
+"Cancel" = "Mégse";
+
+/* Seafile */
+"Cancel download" = "Letöltés megszakítása";
+
+/* Seafile */
+"Cancel upload" = "Cancel upload";
+
+/* Seafile */
+"Changed library name or description" = "Kötetnév vagy leírás változott";
+
+/* Seafile */
+"Checking library password ..." = "Kötet jelszó ellenőrzése ...";
+
+/* Seafile */
+"Choose" = "Választ";
+
+/* Seafile */
+"Choose directory" = "Choose directory";
+
+/* Seafile */
+"Choose a Seafile server" = "Válassz Seafile szervert";
+
+/* Seafile */
+"Choose an account to start" = "Induló fiók kiválasztása";
+
+/* Seafile */
+"Clear libraries passwords successfully." = "Kötet jelszó elfelejtve.";
+
+/* Seafile */
+"Clear library password successfully." = "Kötet jelszó elfelejtve.";
+
+/* Seafile */
+"Clear password" = "Jelszó elfelejtése";
+
+/* Seafile */
+"Clear remembered passwords" = "Megjegyzett jelszó elfelejtése";
+
+/* Seafile */
+"Click \"Search\" to start" = "Indításhoz kattintson a „Keresés”-re";
+
+/* Seafile */
+"Connecting to server" = "Csatlakozás a szerverhez";
+
+/* Seafile */
+"Contacts Backup" = "Ismerősök mentése";
+
+/* Seafile */
+"Contacts backup failed." = "Sikertelen az ismerősök mentése";
+
+/* Seafile */
+"Contacts backup should be enabled first." = "Az ismerősök mentését először engedélyezni kell.";
+
+/* Seafile */
+"Contacts backup succeeded." = "Sikeres az ismerősök mentése.";
+
+/* Seafile */
+"Contacts will be backuped as: %@ " = "Az ismerősök ide lesznek mentve: %@";
+
+/* Seafile */
+"Copy" = "Másol";
+
+/* Seafile */
+"Copy Link to Clipboard" = "Link vágólapra másolása";
+
+/* Seafile */
+"Copy image to clipboard" = "Kép vágólapra másolása";
+
+/* Seafile */
+"Copy share link to clipboard" = "Megosztási link vágólapra másolása";
+
+/* Seafile */
+"Copying files ..." = "Fájlok másolása ...";
+
+/* Seafile */
+"Created library %@" = "%@ könyvtár létrehozva";
+
+/* Seafile */
+"Creating file ..." = "Fájl létrehozás ...";
+
+/* Seafile */
+"Creating folder ..." = "Könyvtár létrehozás ...";
+
+/* Seafile */
+"Creating library ..." = "Creating library ...";
+
+/* Seafile */
+"Created library" = "Created library";
+
+/* Seafile */
+"Created folder" = "Created folder";
+
+/* Seafile */
+"Created file" = "Created file";
+
+/* Seafile */
+"Created %ld files" = "Created %ld files";
+
+/* Seafile */
+"Created draft" = "Created draft";
+
+/* Seafile */
+"Delete" = "Töröl";
+
+/* Seafile */
+"Deleted" = "Törölve";
+
+/* Seafile */
+"Deleted library %@" = "%@ kötet törölve";
+
+/* Seafile */
+"Deleting directory ..." = "Könyvtár törlése ...";
+
+/* Seafile */
+"Deleting file ..." = "Fájl törlése ...";
+
+/* Seafile */
+"Deleting files ..." = "Fájlok törlése ...";
+
+/* Seafile */
+"Deleted library" = "Deleted library";
+
+/* Seafile */
+"Deleted folder" = "Deleted folder";
+
+/* Seafile */
+"Deleted file" = "Deleted file";
+
+/* Seafile */
+"Deleted draft" = "Deleted draft";
+
+/* Seafile */
+"Destination" = "Cél";
+
+/* Seafile */
+"Directory '%@' is shared with you using %@" = "'%1$@' megosztva önnel itt: %2$@";
+
+/* Seafile */
+"Discussion" = "Megbeszélés";
+
+/* Seafile */
+"Do you want reset the uploaded photos?" = "Alaphelyzetbe állítja a feltöltött fényképeket?";
+
+/* Seafile */
+"Do you want to backup contacts now? " = "A névjegyeket most szeretnéd menteni?";
+
+/* Seafile */
+"Download" = "Letöltés";
+
+/* Seafile */
+"Edit" = "Szerkeszt";
+
+/* Seafile */
+"Email" = "Email";
+
+/* Seafile */
+"Email or Username" = "Email vagy felhasználónév";
+
+/* Seafile */
+"Enable TouchID" = "TouchID engedélyezés";
+
+/* Seafile */
+"Enable FaceID" = "Enable Face ID";
+
+/* Seafile */
+"Encrypted Libraries" = "Titkosított kötetek";
+
+/* Seafile */
+"Encrypted" = "Encrypted";
+
+/* Seafile */
+"Failed to add discussion" = "Nem lehetett megbeszélést hozzáadni";
+
+/* Seafile */
+"Failed to authenticate" = "Sikertelen azonosítás";
+
+/* Seafile */
+"Failed to copy files" = "Fájlok másolása sikertelen";
+
+/* Seafile */
+"Failed to create file" = "Fájl létrehozás sikertelen";
+
+/* Seafile */
+"Failed to create folder" = "Könyvtár létrehozás sikertelen";
+
+/* Seafile */
+"Failed to create library" = "Failed to create library";
+
+/* Seafile */
+"Failed to delete files" = "Fájlok törlése sikertelen";
+
+/* Seafile */
+"Failed to download file '%@'" = "'%@' fájl letöltése sikertelen";
+
+/* Seafile */
+"Failed to find %@" = "%@ nem található";
+
+/* Seafile */
+"Failed to find library" = "Kötet nem található";
+
+/* Seafile */
+"Failed to generate share link of directory '%@'" = "'%@' könyvtárhoz a megosztási link készítése sikertelen";
+
+/* Seafile */
+"Failed to generate share link of file '%@'" = "'%@' fájlhoz a megosztási link készítése sikertelen";
+
+/* Seafile */
+"Failed to get groups ..." = "Csoportok betöltése sikertelen ...";
+
+/* Seafile */
+"Failed to get messages" = "Hiba az üzenetek letöltésében";
+
+/* Seafile */
+"Failed to get modification details" = "A változások részleteinek letöltése sikertelen";
+
+/* Seafile */
+"Failed to get starred files" = "Kedvenc fájlok betöltése sikertelen";
+
+/* Seafile */
+"Failed to identify the coding of '%@'" = "'%@' kódolásának meghatározása sikertelen";
+
+/* Seafile */
+"Failed to load activities" = "Tevékenységek betöltése sikertelen";
+
+/* Seafile */
+"Failed to load content of the directory" = "A könyvtár tartalmának betöltése sikertelen";
+
+/* Seafile */
+"Failed to load files" = "Fájlok betöltése sikertelen";
+
+/* Seafile */
+"Failed to login" = "Bejelentkezés sikertelen";
+
+/* Seafile */
+"Failed to move files" = "Fájlok mozgatása sikertelen";
+
+/* Seafile */
+"Failed to open file" = "A fájl megnyitása sikertelen";
+
+/* Seafile */
+"Failed to remove certificate" = "A tanúsítvány törlése sikertelen";
+
+/* Seafile */
+"Failed to rename file" = "Fájl átnevezése sikertelen";
+
+/* Seafile */
+"Failed to restore contacts." = "Az ismerősök visszaállítása sikertelen.";
+
+/* Seafile */
+"Failed to save %@ to album" = "%@ albumba mentése sikertelen";
+
+/* Seafile */
+"Failed to copy %@ to clipboard" = "Failed to copy %@ to clipboard";
+
+/* Seafile */
+"Failed to save account" = "A fiók mentése sikertelen";
+
+/* Seafile */
+"Failed to search" = "Keresés sikertelen";
+
+/* Seafile */
+"Failed to send message" = "Üzenet küldése sikertelen";
+
+/* Seafile */
+"Failed to upload file" = "Fájl feltöltése sikertelen";
+
+/* Seafile */
+"File '%@' is shared with you using %@" = "'%1$@' fájl megosztva önnel itt: %2$@";
+
+/* Seafile */
+"File '%@' is too large to edit" = "'%@' fájl túl nagy a szerkesztéshez";
+
+/* Seafile */
+"File '%@' uploaded successfully" = "'%@' fájl feltöltése sikeres";
+
+/* Seafile */
+"File name invalid" = "Érvénytelen fájlnév";
+
+/* Seafile */
+"File name must not be empty" = "Fájlnév nem lehet üres";
+
+/* Seafile */
+"Files with the same name already exist, do you want to overwrite?" = "Létezik fájl ezzel a névvel, felülírjam?";
+
+/* Seafile */
+"File can not be shared" = "File can not be shared";
+
+/* Seafile */
+"Folder name invalid" = "Érvénytelen könyvtárnév";
+
+/* Seafile */
+"Folder name must not be empty" = "Könyvtárnév nem lehet üres";
+
+/* Seafile */
+"For example: https://seacloud.cc or http://192.168.1.24:8000" = "Például: https://seacloud.cc vagy http://192.168.1.24:8000";
+
+/* Seafile */
+"Generate share link ..." = "Megosztási link készítés ...";
+
+/* Seafile */
+"Generate share link success" = "Megosztási link készítés sikeres";
+
+/* Seafile */
+"Group discussion" = "Csoportos megbeszélés";
+
+/* Seafile */
+"Hey there!<br/><br/> I've been using %@ and thought you might like it. It is a free way to bring all you files anywhere and share them easily.<br/><br/>Go to the official website of %@:</br></br> <a href=\"%@\">%@</a>\n\n" = "Helló!<br/><br/> A(z) %1$@-t használom gondoltam érdekelhet. Ingyen magaddal viheted minden fájlod és egyszerűen megoszthatod.<br/><br/> Nézd meg a(z) %2$@ hivatalos weblapját:</br></br> <a href=\"%3$@\">%4$@</a>\n\n";
+
+/* Seafile */
+"Hi,<br/><br/>Here is a link to <b>'%@'</b> in my %@:<br/><br/> <a href=\"%@\">%@</a>\n\n" = "Üdv,<br/><br/><b>'%1$@'</b> -hez/hoz itt a %2$@ link:<br/><br/> <a href=\"%3$@\">%4$@</a>\n\n";
+
+/* Seafile */
+"Hi,<br/><br/>Here is a link to directory <b>'%@'</b> in my %@:<br/><br/> <a href=\"%@\">%@</a>\n\n" = "Üdv,<br/><br/><b>'%1$@'</b> könyvtárhoz itt a(z) %2$@ link:<br/><br/> <a href=\"%3$@\">%4$@</a>\n\n";
+
+/* Seafile */
+"How would you like to share this file?" = "Hogy szeretné megosztani ezt a fájlt?";
+
+/* Seafile */
+"Hide" = "Hide";
+
+/* Seafile */
+"Import client certificate" = "Kliens tanúsítvány importálása";
+
+/* Seafile */
+"Invalid Server" = "Érvénytelen szerver";
+
+/* Seafile */
+"Invalid email" = "Érvénytelen email";
+
+/* Seafile */
+"Last Backup Time" = "Utolsó mentés ideje";
+
+/* No comment provided by engineer. */
+"Last Updated: %@" = "Utoljára frissítve: %@";
+
+/* Seafile */
+"Libraries" = "Kötetek";
+
+/* Loading Status */
+"Loading..." = "Betöltés...";
+
+/* Seafile */
+"Local Cache" = "Helyi gyorsítótár";
+
+/* Local decryption */
+"Local decryption" = "Dekódolás helyben";
+
+/* Seafile */
+"Log out" = "Kilépés";
+
+/* Seafile */
+"Login" = "Bejelentkezés";
+
+/* Seafile */
+"Library name invalid" = "Library name invalid";
+
+/* Seafile */
+"Library name must not be empty" = "Library name must not be empty";
+
+/* Seafile */
+"Message" = "Üzenet";
+
+/* Seafile */
+"Messages" = "Üzenetek";
+
+/* Seafile */
+"Modification Details" = "Módosítások részletei";
+
+/* Seafile */
+"Modified" = "Módosítva";
+
+/* Seafile */
+"Modified file" = "Fájl módosítva";
+
+/* Seafile */
+"More" = "Tovább";
+
+/* Seafile */
+"Move" = "Mozgat";
+
+/* Seafile */
+"MoveTo" = "Ide mozgat";
+
+/* Seafile */
+"Moved" = "Mozgatva";
+
+/* Seafile */
+"Moved directory" = "Könyvtár mozgatva";
+
+/* Seafile */
+"Moving files ..." = "Fájlok mozgatása ...";
+
+/* Seafile */
+"Moved folder" = "Moved folder";
+
+/* Seafile */
+"Moved file" = "Moved file";
+
+/* Seafile */
+"My Own Libraries" = "Saját kötetek";
+
+/* Seafile */
+"NO" = "Nem";
+
+/* FailToPreview_iPad.xib, FailToPreview_iPhone.xib, SeafCell.xib, SeafDirCell.xib, SeafMessageCell.xib, SeafUploadDirViewController.xib */
+"Name" = "Név";
+
+/* Seafile */
+"Network unavailable" = "A hálózat elérhetetlen";
+
+/* Seafile */
+"New File" = "Új fájl";
+
+/* Seafile */
+"New Folder" = "Új könyvtár";
+
+/* Seafile */
+"New file name" = "Új fájl név";
+
+/* Seafile */
+"New folder name" = "Új könyvtár név";
+
+/* Seafile */
+"New Library" = "New Library";
+
+/* Seafile */
+"New library name" = "New Library Name";
+
+/* Seafile */
+"No Results" = "Nincs találat";
+
+/* Seafile */
+"No available certificates" = "Nincs elérhető tanúsítvány";
+
+/* Seafile */
+"OK" = "Rendben";
+
+/* Seafile */
+"Open elsewhere..." = "Megnyitás máshol...";
+
+/* Seafile */
+"Open in other applications" = "Megnyitás más alkalmazással";
+
+/* Seafile */
+"Open photo browser" = "Kényképek megnyitása";
+
+/* Seafile */
+"Open Seafile to view details" = "Open Seafile to view details";
+
+/* Seafile */
+"Organization" = "Szervezet";
+
+/* Seafile */
+"Other Server" = "Másik szerver";
+
+/* Seafile */
+"Out of quota" = "Kvóta túllépés";
+
+/* Seafile */
+"Password" = "Jelszó";
+
+/* Seafile */
+"Password must not be empty" = "A jelszó nem lehet üres";
+
+/* Seafile */
+"Password of '%@'" = "Jelszó ehhez: '%@'";
+
+/* Seafile */
+"Password of library '%@'" = "'%@' kötet jelszava";
+
+/* Seafile */
+"Password required" = "Jelszó szükséges";
+
+/* Seafile */
+"Password (at least 8 characters)" = "Password (at least 8 characters)";
+
+/* Seafile */
+"Please enter your password again" = "Please enter your password again";
+
+/* Seafile */
+"Password must at least 8 characters" = "Password must at least 8 characters";
+
+/* Seafile */
+"Two passwords are different" = "Two passwords are different";
+
+/* Seafile */
+"PasteTo" = "Ide beilleszt";
+
+/* Seafile */
+"Photos" = "Fényképek";
+
+/* Seafile */
+"Photos are not accessible" = "A fényképeket nem lehet elérni";
+
+/* Seafile */
+"Please authenticate to proceed" = "A folytatáshoz be kell jelentkezni";
+
+/* Seafile */
+"Please disable \"Auto clear passwords\" for auto uploading photos to an encrypted library." = "Az 'Automatikus jelszó elfelejtés'-t ki kell kapcsolni a titkosított kötetbe való automatikus fénykép feltöltéshez.";
+
+/* Seafile */
+"Please disable \"Auto clear passwords\" for uploading contacts to an encrypted library." = "Az 'Automatikus jelszó elfelejtés'-t ki kell kapcsolni az ismerősök titkosított kötetbe való automatikus feltöltéséhez.";
+
+/* Seafile */
+"Please enable \"Local decryption\" for auto uploading photos to an encrypted library." = "A 'Visszafejtés helyben' opciót engedélyezni kell a titkosított kötetbe való automatikus fénykép feltöltéshez.";
+
+/* Seafile */
+"Please enable \"Local decryption\" for uploading contacts to an encrypted library." = "A 'Visszafejtés helyben' opciót engedélyezni kell az ismerősök titkosított kötetbe való automatikus feltöltéséhez.";
+
+/* Seafile */
+"Post a discussion to group" = "Megbeszélés küldése csoportnak";
+
+/* Seafile */
+"Preview" = "Előnézet";
+
+/* Seafile */
+"Print" = "Nyomtat";
+
+/* Seafile */
+"Publish draft" = "Publish draft";
+
+/* Pull down to get more messages */
+"Pull down to get more messages..." = "További üzenetekért húzza le...";
+
+/* Pull to refresh status */
+"Pull to refresh..." = "Frissítéshez húzza le...";
+
+/* Seafile */
+"Recovered deleted directory" = "Törölt könyvtár visszaállítva.";
+
+/* Seafile */
+"Redownload" = "Újra letölt";
+
+/* Release to get more messages */
+"Release to get more messages..." = "További üzenetekhez engedje el...";
+
+/* Release to refresh status */
+"Release to refresh..." = "A frissítéshez engedje el...";
+
+/* Seafile */
+"Removed all items from trash" = "Removed all items from trash";
+
+/* Seafile */
+"Removed items older than %ld days from trash" = "Removed items older than %ld days from trash";
+
+/* Seafile */
+"Remove client certificate" = "Kliens tanúsítvány törlése";
+
+/* Seafile */
+"Removed" = "Törölve";
+
+/* Seafile */
+"Removed directory" = "Könyvtár törölve";
+
+/* Seafile */
+"Removed file" = "Fájl törölve";
+
+/* Seafile */
+"Rename" = "Átnevez";
+
+/* Seafile */
+"Renamed" = "Átnevezve";
+
+/* Seafile */
+"Renamed directory" = "Könyvtár átnevezve";
+
+/* Seafile */
+"Renaming file ..." = "Fájl átnevezés ...";
+
+/* Seafile */
+"Renamed library" = "Renamed library";
+
+/* Seafile */
+"Renamed folder" = "Renamed folder";
+
+/* Seafile */
+"Renamed file" = "Renamed file";
+
+/* Seafile */
+"Replace" = "Cserél";
+
+/* Seafile */
+"Reset repo password" = "Repo jelszó alaphelyzetbe állítása";
+
+/* Seafile */
+"Restore Contacts" = "Ismerősök visszaállítása";
+
+/* Seafile */
+"Restoring contacts." = "Ismerősök visszaállítása.";
+
+/* Seafile */
+"Restored library" = "Restored library";
+
+/* Seafile */
+"Restored folder" = "Restored folder";
+
+/* Seafile */
+"Restored file" = "Restored file";
+
+/* Seafile */
+"Reverted file \"%@\" to status at %@." = "\"%1$@\" fájl visszaállítva ekkori állapotra: %2$@";
+
+/* Seafile */
+"Reverted library to status at" = "Kötet visszaállítva ekkori állapotra: ";
+
+/* Seafile push notification message */
+"SEAFILE_LOC_KEY_FORMAT" = "%@, új üzenet tőle: %@";
+
+/* Seafile */
+"Save" = "Ment";
+
+/* Seafile */
+"Save Destination" = "Mentési cél";
+
+/* Seafile */
+"Save all photos to album" = "Minden fénykép mentése albumba";
+
+/* Seafile */
+"Save to %@" = "Mentés ide: %@";
+
+/* MainInterface.storyboard */
+"Save to Seafile" = "Seafile-ra mentés";
+
+/* Seafile */
+"Save to album" = "Albumba mentés";
+
+/* Seafile */
+"Saving all photos to album" = "Minden fénykép mentése albumba";
+
+/* Seafile */
+"Seafile" = "Seafile";
+
+/* Seafile */
+"Search" = "Keresés";
+
+/* Seafile */
+"Search files in this library" = "Fájlok keresése a kötetben";
+
+/* Seafile */
+"Search is not supported on the server" = "Keresés nem támogatott a szerveren";
+
+/* Seafile */
+"Searching" = "Keresés";
+
+/* Seafile */
+"Searching ..." = "Keresés ...";
+
+/* Seafile */
+"Select All" = "Mindet kijelöl";
+
+/* Seafile */
+"Select None" = "Semmit nem jelöl ki";
+
+/* Seafile */
+"Select a certificate" = "Tanúsítvány kiválasztása";
+
+/* No comment provided by engineer. */
+"Send" = "Küld";
+
+/* Seafile */
+"Send share link via email" = "Megosztási link elküldése e-mailben";
+
+/* Seafile */
+"Sending" = "Küldés";
+
+/* Seafile */
+"Sending..." = "Küldés...";
+
+/* Seafile */
+"Server" = "Szerver";
+
+/* Seafile */
+"Server must not be empty" = "A szerver nem lehet üres";
+
+/* Seafile */
+"Server, like https://seafile.cc" = "Szerver, mint https://seafile.cc";
+
+/* Seafile */
+"Settings" = "Beállítások";
+
+/* Seafile */
+"Shared to me" = "Megosztva velem";
+
+/* Seafile */
+"Shared with groups" = "Shared with groups";
+
+/* Seafile */
+"Share" = "Share";
+
+/* Seafile */
+"Shibboleth" = "Shibboleth";
+
+/* Seafile */
+"Shibboleth Login" = "Shibboleth Bejelentkezés";
+
+/* Seafile */
+"Single Sign On" = "Single Sign On";
+
+/* Seafile */
+"Sort by Last Modifed Time" = "Rendezés utolsó módosítás ideje szerint";
+
+/* Seafile */
+"Sort by Name" = "Rendezés név szerint";
+
+/* Seafile */
+"Space Used" = "Felhasznált hely";
+
+/* Seafile */
+"Star" = "Kedvenc";
+
+/* Seafile */
+"Starred" = "Kedvencek";
+
+/* Seafile */
+"Start to download folder: " = "Könyvtár a letöltés megkezdéséhez:";
+
+/* Seafile */
+"Start to download library: " = "Kötet letöltés megkezdéséhez:";
+
+/* Seafile */
+"Succeeded to remove certificate" = "Tanúsítvány törlése sikeres";
+
+/* Seafile */
+"Succeeded to restore contacts" = "Az ismerősök visszaállítása sikeres";
+
+/* Seafile */
+"Succeeded to save %@ to album" = "%@ albumba mentése sikeres";
+
+/* Seafile */
+"Succeeded to copy %@ to clipboard" = "Succeeded to copy %@ to clipboard";
+
+/* Seafile */
+"Successfully imported %@" = "%@ sikeresen importálva";
+
+/* Seafile */
+"Successfully moved" = "Successfully moved";
+
+/* Seafile */
+"Successfully copied" = "Successfully copied";
+
+/* Seafile */
+"Tell Friends about %@" = "Meséljen az ismerősöknek a(z) %@-ról/-ről";
+
+/* Seafile */
+"The certificate from this website has been changed. Would you like to connect to the server anyway?" = "A weboldal tanúsítványa megváltozott. Ennek ellenére kapcsolódik a szerverhez?";
+
+/* Seafile */
+"The certificate from this website is invalid. Would you like to connect to the server anyway?" = "A weboldal tanúsítványa érvénytelen. Ennek ellenére kapcsolódik a szerverhez?";
+
+/* Seafile */
+"The length of password should be between 3 and 100" = "A jelszó hossza 3 és 100 karakter között legyen";
+
+/* Seafile */
+"The mail account has not been set yet" = "A levelező fiók még nincs beállítva";
+
+/* Seafile */
+"The token is invalid, you need to login again" = "Az azonosító lejárt. újra be kell jelentkezni";
+
+/* Seafile */
+"There is no app which can open this type of file on this machine" = "Nincs olyan alkalmazás amivel ezt a fájltípust meg lehet nyitni ezen a gépen";
+
+/* Seafile */
+"There was a problem verifying your identity." = "Hiba történt a személyazonossága ellenőrzésekor.";
+
+/* Seafile */
+"This app does not have access to your contacts." = "Az alkalmazás nem fér hozzá az ismerősökhöz.";
+
+/* Seafile */
+"There is no account available" = "There is no account available.";
+
+/* Seafile */
+"This app does not have access to your location service." = "Az alkalmazás nem fér hozzá a helymeghatározáshoz.";
+
+/* Seafile */
+"This app does not have access to your photos and videos." = "Az alkalmazás nem fér hozzá a fényképekhez és videókhoz.";
+
+/* Seafile */
+"This function is not supportted yet" = "Ez a funkció még támogatott";
+
+/* Seafile */
+"This function is not supportted yet，you can copy it to the pasteboard and send mail by yourself" = "Ez a funkció még nem támogatott, bemásolhatja a „kartonba” (pasteboard) és elküldheti levélben";
+
+/* Seafile */
+"Two step verification code" = "Kétlépcsős ellenőrző kód";
+
+/* Seafile */
+"Unstar" = "Nem kedvenc";
+
+/* Seafile */
+"Upload" = "Feltöltés";
+
+/* Seafile */
+"Upload Destination" = "Feltöltési cél";
+
+/* Seafile */
+"Upload Videos" = "Videók feltöltése";
+
+/* Seafile */
+"Updated file" = "Upload file";
+
+/* Seafile */
+"Updated draft" = "Upload draft";
+
+/* NSPhotoLibraryUsageDescription */
+"Used to sync photos" = "Fényképek szinkronizációjához";
+
+/* Seafile */
+"Username" = "Felhasználónév";
+
+/* Seafile */
+"Username must not be empty" = "A felhasználónév nem lehet üres";
+
+/* Seafile */
+"Verification code must not be empty" = "Az ellenőrző kód nem lehet üres";
+
+/* Seafile */
+"Version" = "Verzió";
+
+/* Seafile */
+"Website" = "Weboldal";
+
+/* Seafile */
+"Welcome to %@" = "Üdv a(z) %@-ban";
+
+/* Seafile */
+"Wifi Only" = "Csak Wifivel";
+
+/* Seafile */
+"Wipe Cache" = "Gyorsítótár törlése";
+
+/* Seafile */
+"Wrong library password" = "Hibás kötet jelszó";
+
+/* Seafile */
+"Wrong password" = "Hibás jelszó";
+
+/* Seafile */
+"Wrong username or password" = "Hibás felhasználói név vagy jelszó";
+
+/* Seafile */
+"YES" = "Igen";
+
+/* Seafile */
+"You can enable access in Privacy Settings" = "A hozzáférést a biztonsági beállításoknál engedélyezheti";
+
+/* Seafile */
+"Your device cannot authenticate using Touch ID." = "Az eszköz TouchID-vel nem tud azonosítani.";
+
+/* Seafile */
+"Your device cannot authenticate using Face ID." = "Your device cannot authenticate using Face ID.";
+
+/* Seafile */
+"and %@ more" = "és még %@";
+
+/* SeafCell.xib */
+"detail" = "részlet";
+
+/* Seafile */
+"directories" = "könyvtárak";
+
+/* Seafile */
+"files" = "fájlok";
+
+/* Seafile */
+"modified" = "módosítva";
+
+/* Seafile */
+"Uploading" = "Uploading";
+
+/* Seafile */
+"Downloading" = "Downloading";
+
+/* Seafile */
+"Upload & Download" = "Upload & Download";
+
+/* Seafile */
+"Completed" = "Completed";
+
+/* waiting to upload */
+"Waiting to upload" = "%Waiting to upload";
+
+/* FolderView_iPad.storyboard, FolderView_iPhone.storyboard */
+"www.seafile.com" = "www.seafile.com";
+
+/* Share to WeChat */
+"Share to WeChat" = "Share to WeChat";
+
+/* Share Cancelled */
+"Share Cancelled" = "Share Cancelled";
+
+/* Failed to share to WeChat */
+"Failed to share to WeChat" = "Failed to share to WeChat";
+
+/* OK and Remember Device */
+"OK and Remember Device" = "OK and Remember Device";
+
+/* Privacy Policy */
+"Privacy Policy" = "Privacy Policy";
+
+/* Privacy Policy URL */
+"https://www.seafile.com/en/privacy_policy/" = "https://www.seafile.com/en/privacy_policy/";
+
+/*  TouchID is Enabled  */
+"FaceID(TouchID) is Enabled" = "FaceID(TouchID) is Enabled";
+
+/* Files cannot be used whith TouchID */
+"Files cannot access files in Seafile when FaceID(TouchID) enabled. Please open Seafile and disable FaceID(TouchID)." = "Files cannot access files in Seafile when FaceID(TouchID) enabled. Please open Seafile and disable FaceID(TouchID).";
+
+/* Seafile */
+"Please open Seafile ans add an account to start" = "Please open Seafile ans add an account to start.";

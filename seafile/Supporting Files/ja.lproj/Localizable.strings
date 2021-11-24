@@ -1,0 +1,1069 @@
+﻿
+
+/* Seafile */
+"%@ can't verify the identity of the website \"%@\"" = "%1$@ can't verify the identity of the website \"%2$@\"";
+
+/* Seafile */
+"%@ does not support to preview file of this kind at the moment." = "%@ does not support to preview file of this kind at the moment.";
+
+/* Seafile */
+"%@ invite you to %@" = "%1$@ invite you to %2$@";
+
+/* Seafile */
+"%@, Uploaded %@" = "%1$@, Uploaded %2$@";
+
+/* Seafile */
+"%@, uploading" = "%@, uploading";
+
+/* Seafile */
+"%@, waiting to upload" = "%@, waiting to upload";
+
+/* Seafile */
+"%ld photos remain" = "%ld photos remain";
+
+/* Seafile */
+"%ld files are uploaded to Seafile" = "%ld files are uploaded to Seafile";
+
+/* Seafile */
+"1 photo remain" = "1 photo remain";
+
+/* Seafile */
+"%ld days ago" = "%ld days ago";
+
+/* Seafile */
+"%ld hours ago" = "%ld hours ago";
+
+/* Seafile */
+"%ld minutes ago" = "%ld minutes ago";
+
+/* Seafile */
+"%ld months ago" = "%ld months ago";
+
+/* Seafile */
+"%ld years ago" = "%ld years ago";
+
+/* Seafile */
+"a day ago" = "a day ago";
+
+/* Seafile */
+"a few seconds ago" = "a few seconds ago";
+
+/* Seafile */
+"an hour ago" = "an hour ago";
+
+/* Seafile */
+"a minute ago" = "a minute ago";
+
+/* Seafile */
+"a month ago" = "a month ago";
+
+/* Seafile */
+"a year ago" = "a year ago";
+
+/* Seafile */
+"A file with the same name already exists, do you want to overwrite?" = "A file with the same name already exists, do you want to overwrite?";
+
+/* Seafile */
+"About" = "について";
+
+/* Seafile */
+"Account" = "Account";
+
+/* Seafile */
+"Account Info" = "アカウント情報";
+
+/* Seafile */
+"Accounts" = "アカウント";
+
+/* Seafile */
+"Activities" = "活動";
+
+/* Seafile */
+"Activity" = "活動";
+
+/* Seafile */
+"Add a new discussion" = "新たなディスカッションを追加する";
+
+/* Seafile */
+"Add account" = "アカウント追加";
+
+/* Seafile */
+"Add contact" = "コンタクト追加";
+
+/* Seafile */
+"Added" = "Added";
+
+/* Seafile */
+"Added directory" = "Added directory";
+
+/* Seafile */
+"Added file" = "Added file";
+
+/* Seafile */
+"Added or modified" = "Added or modified";
+
+/* Seafile */
+"All photos synced" = "All photos synced";
+
+/* Seafile */
+"Are you sure to clear all the cache?" = "Are you sure to clear all the cache?";
+
+/* Seafile */
+"Are you sure to cancel all downloading tasks?" = "Are you sure to cancel all downloading tasks?";
+
+/* Seafile */
+"Are you sure to cancel all uploading tasks" = "Are you sure to cancel all uploading tasks";
+
+/* Seafile */
+"Are you sure to log out?" = "Are you sure to log out?";
+
+/* Seafile */
+"Are you sure you want to delete %@ ?" = "Are you sure you want to delete %@ ?";
+
+/* Seafile */
+"Are you sure to save all photos to album?" = "Are you sure to save all photos to album";
+
+/* Seafile */
+"Auto Upload" = "Auto Upload";
+
+/* Auto cleay library password */
+"Auto clear passwords" = "Auto clear passwords";
+
+/* Seafile */
+"Auto merge by seafile system" = "Auto merge by seafile system";
+
+/* Seafile */
+"Auto upload should be enabled first." = "Auto upload should be enabled first.";
+
+/* Seafile */
+"Back" = "戻る";
+
+/* Seafile */
+"Back to Last Account" = "一つ前のアカウントへ戻る";
+
+/* Seafile */
+"Background Upload" = "Background Upload";
+
+/* Seafile */
+"Backup Contacts" = "Backup Contacts";
+
+/* Seafile */
+"Cache" = "キャッシュ";
+
+/* FolderView_iPad.storyboard */
+"Camera Upload" = "Camera Upload";
+
+/* Seafile */
+"Can not remove certificate because it is still in use" = "Can not remove certificate because it is still in use";
+
+/* Seafile */
+"Cancel" = "キャンセル";
+
+/* Seafile */
+"Cancel download" = "ダウンロードのキャンセル";
+
+/* Seafile */
+"Cancel upload" = "Cancel upload";
+
+/* Seafile */
+"Changed library name or description" = "Changed library name or description";
+
+/* Seafile */
+"Checking library password ..." = "ライブラリーパスワードをチェックしています";
+
+/* Seafile */
+"Choose" = "選択";
+
+/* Seafile */
+"Choose directory" = "Choose directory";
+
+/* Seafile */
+"Choose a Seafile server" = "Choose a Seafile server";
+
+/* Seafile */
+"Choose an account to start" = "開始するアカウント選択して下さい";
+
+/* Seafile */
+"Clear libraries passwords successfully." = "Clear libraries passwords successfully.";
+
+/* Seafile */
+"Clear library password successfully." = "Clear library password successfully.";
+
+/* Seafile */
+"Clear password" = "Clear password";
+
+/* Seafile */
+"Clear remembered passwords" = "Clear remembered passwords";
+
+/* Seafile */
+"Click \"Search\" to start" = "開始するために\"検索\"をクリックして下さい";
+
+/* Seafile */
+"Connecting to server" = "サーバーへ接続しています";
+
+/* Seafile */
+"Contacts Backup" = "Contacts Backup";
+
+/* Seafile */
+"Contacts backup failed." = "Contacts backup failed.";
+
+/* Seafile */
+"Contacts backup should be enabled first." = "Contacts backup should be enabled first.";
+
+/* Seafile */
+"Contacts backup succeeded." = "Contacts backup succeeded.";
+
+/* Seafile */
+"Contacts will be backuped as: %@ " = "Contacts will be backuped as: %@ ";
+
+/* Seafile */
+"Copy" = "コピー";
+
+/* Seafile */
+"Copy Link to Clipboard" = "リンクをクリップボードへコピーする";
+
+/* Seafile */
+"Copy image to clipboard" = "画像をクリップボードへコピーする";
+
+/* Seafile */
+"Copy share link to clipboard" = "Copy share link to clipboard";
+
+/* Seafile */
+"Copying files ..." = "ファイルをコピーしています";
+
+/* Seafile */
+"Created library %@" = "Created library %@";
+
+/* Seafile */
+"Creating file ..." = "ファイルを作成しています";
+
+/* Seafile */
+"Creating folder ..." = "フォルダを作成しています";
+
+/* Seafile */
+"Creating library ..." = "Creating library ...";
+
+/* Seafile */
+"Created library" = "Created library";
+
+/* Seafile */
+"Created folder" = "Created folder";
+
+/* Seafile */
+"Created file" = "Created file";
+
+/* Seafile */
+"Created %ld files" = "Created %ld files";
+
+/* Seafile */
+"Created draft" = "Created draft";
+
+/* Seafile */
+"Delete" = "削除";
+
+/* Seafile */
+"Deleted" = "Deleted";
+
+/* Seafile */
+"Deleted library %@" = "Deleted library %@";
+
+/* Seafile */
+"Deleting directory ..." = "Deleting directory ...";
+
+/* Seafile */
+"Deleting file ..." = "ファイルを削除しています";
+
+/* Seafile */
+"Deleting files ..." = "ファイルを削除しています";
+
+/* Seafile */
+"Deleted library" = "Deleted library";
+
+/* Seafile */
+"Deleted folder" = "Deleted folder";
+
+/* Seafile */
+"Deleted file" = "Deleted file";
+
+/* Seafile */
+"Deleted draft" = "Deleted draft";
+
+/* Seafile */
+"Destination" = "目的地";
+
+/* Seafile */
+"Directory '%@' is shared with you using %@" = "Directory '%1$@' is shared with you using %2$@";
+
+/* Seafile */
+"Discussion" = "ディスカッション";
+
+/* Seafile */
+"Do you want reset the uploaded photos?" = "Do you want reset the uploaded photos?";
+
+/* Seafile */
+"Do you want to backup contacts now? " = "Do you want to backup contacts now? ";
+
+/* Seafile */
+"Download" = "Download";
+
+/* Seafile */
+"Edit" = "編集";
+
+/* Seafile */
+"Email" = "メール";
+
+/* Seafile */
+"Email or Username" = "Email or Username";
+
+/* Seafile */
+"Enable TouchID" = "Enable TouchID";
+
+/* Seafile */
+"Enable FaceID" = "Enable Face ID";
+
+/* Seafile */
+"Encrypted Libraries" = "Encrypted Libraries";
+
+/* Seafile */
+"Encrypted" = "Encrypted";
+
+/* Seafile */
+"Failed to add discussion" = "ディスカッションの追加に失敗しました";
+
+/* Seafile */
+"Failed to authenticate" = "Failed to authenticate";
+
+/* Seafile */
+"Failed to copy files" = "ファイルのコピーに失敗しました";
+
+/* Seafile */
+"Failed to create file" = "ファイルの作成に失敗しました";
+
+/* Seafile */
+"Failed to create folder" = "フォルダの作成に失敗しました";
+
+/* Seafile */
+"Failed to create library" = "Failed to create library";
+
+/* Seafile */
+"Failed to delete files" = "ファイルの削除に失敗しました";
+
+/* Seafile */
+"Failed to download file '%@'" = "Failed to download file '%@'";
+
+/* Seafile */
+"Failed to find %@" = "Failed to find %@";
+
+/* Seafile */
+"Failed to find library" = "Failed to find library";
+
+/* Seafile */
+"Failed to generate share link of directory '%@'" = "Failed to generate share link of directory '%@'";
+
+/* Seafile */
+"Failed to generate share link of file '%@'" = "ファイル'%@'へのリンクの共有の作成に失敗しました";
+
+/* Seafile */
+"Failed to get groups ..." = "グループの取得に失敗しました";
+
+/* Seafile */
+"Failed to get messages" = "メッセージの取得に失敗しました";
+
+/* Seafile */
+"Failed to get modification details" = "Failed to get modification details";
+
+/* Seafile */
+"Failed to get starred files" = "スター付いたファイルの取得に失敗しました";
+
+/* Seafile */
+"Failed to identify the coding of '%@'" = "'%@'のコーディングの識別に失敗しました";
+
+/* Seafile */
+"Failed to load activities" = "活動のロードに失敗しました";
+
+/* Seafile */
+"Failed to load content of the directory" = "ディレクトリの内容のロードに失敗しました";
+
+/* Seafile */
+"Failed to load files" = "ファイルのロード失敗にしました";
+
+/* Seafile */
+"Failed to login" = "ログインに失敗しました";
+
+/* Seafile */
+"Failed to move files" = "ファイルの移動に失敗しました";
+
+/* Seafile */
+"Failed to open file" = "Failed to open file";
+
+/* Seafile */
+"Failed to remove certificate" = "Failed to remove certificate";
+
+/* Seafile */
+"Failed to rename file" = "ファイルの名前変更に失敗しました";
+
+/* Seafile */
+"Failed to restore contacts." = "Failed to restore contacts.";
+
+/* Seafile */
+"Failed to save %@ to album" = "Failed to save %@ to album";
+
+/* Seafile */
+"Failed to copy %@ to clipboard" = "Failed to copy %@ to clipboard";
+
+/* Seafile */
+"Failed to save account" = "Failed to save account";
+
+/* Seafile */
+"Failed to search" = "検索に失敗しました";
+
+/* Seafile */
+"Failed to send message" = "メッセージの送信に失敗しました";
+
+/* Seafile */
+"Failed to upload file" = "ファイルのアップロードに失敗しました";
+
+/* Seafile */
+"File '%@' is shared with you using %@" = "File '%1$@' is shared with you using %2$@";
+
+/* Seafile */
+"File '%@' is too large to edit" = "ファイル'%@'は編集するには大きすぎます";
+
+/* Seafile */
+"File '%@' uploaded successfully" = "ファイル'%@'のアップロードに成功しました";
+
+/* Seafile */
+"File name invalid" = "ファイル名が無効しています";
+
+/* Seafile */
+"File name must not be empty" = "空のファイル名は禁止されています";
+
+/* Seafile */
+"Files with the same name already exist, do you want to overwrite?" = "Files with the same name already exist, do you want to overwrite?";
+
+/* Seafile */
+"File can not be shared" = "File can not be shared";
+
+/* Seafile */
+"Folder name invalid" = "フォルダ名が無効しています";
+
+/* Seafile */
+"Folder name must not be empty" = "空のフォルダ名は禁止されています";
+
+/* Seafile */
+"For example: https://seacloud.cc or http://192.168.1.24:8000" = "例: https://seacloud.cc か http://192.168.1.24:8000";
+
+/* Seafile */
+"Generate share link ..." = "共有リンクを作成しています...";
+
+/* Seafile */
+"Generate share link success" = "共有リンクの作成に成功しました";
+
+/* Seafile */
+"Group discussion" = "グループディスカッション";
+
+/* Seafile */
+"Hey there!<br/><br/> I've been using %@ and thought you might like it. It is a free way to bring all you files anywhere and share them easily.<br/><br/>Go to the official website of %@:</br></br> <a href=\"%@\">%@</a>\n\n" = "Hey there!<br/><br/> I've been using %1$@ and thought you might like it. It is a free way to bring all you files anywhere and share them easily.<br/><br/>Go to the official website of %2$@:</br></br> <a href=\"%3$@\">%4$@</a>\n\n";
+
+/* Seafile */
+"Hi,<br/><br/>Here is a link to <b>'%@'</b> in my %@:<br/><br/> <a href=\"%@\">%@</a>\n\n" = "Hi,<br/><br/>Here is a link to <b>'%1$@'</b> in my %2$@:<br/><br/> <a href=\"%3$@\">%4$@</a>\n\n";
+
+/* Seafile */
+"Hi,<br/><br/>Here is a link to directory <b>'%@'</b> in my %@:<br/><br/> <a href=\"%@\">%@</a>\n\n" = "Hi,<br/><br/>Here is a link to directory <b>'%1$@'</b> in my %2$@:<br/><br/> <a href=\"%3$@\">%4$@</a>\n\n";
+
+/* Seafile */
+"How would you like to share this file?" = "How would you like to share this file?";
+
+/* Seafile */
+"Hide" = "Hide";
+
+/* Seafile */
+"Import client certificate" = "Import client certificate";
+
+/* Seafile */
+"Invalid Server" = "サーバーが見つかりませんでした";
+
+/* Seafile */
+"Invalid email" = "このメールアドレスは無効です";
+
+/* Seafile */
+"Last Backup Time" = "Last Backup Time";
+
+/* No comment provided by engineer. */
+"Last Updated: %@" = "最後のアップデート: %@";
+
+/* Seafile */
+"Libraries" = "ライブラリー";
+
+/* Loading Status */
+"Loading..." = "読み込み中...";
+
+/* Seafile */
+"Local Cache" = "ローカルキャッシュ";
+
+/* Local decryption */
+"Local decryption" = "Local decryption";
+
+/* Seafile */
+"Log out" = "Log out";
+
+/* Seafile */
+"Login" = "ログイン";
+
+/* Seafile */
+"Library name invalid" = "Library name invalid";
+
+/* Seafile */
+"Library name must not be empty" = "Library name must not be empty";
+
+/* Seafile */
+"Message" = "メッセージ";
+
+/* Seafile */
+"Messages" = "メッセージ";
+
+/* Seafile */
+"Modification Details" = "Modification Details";
+
+/* Seafile */
+"Modified" = "Modified";
+
+/* Seafile */
+"Modified file" = "Modified file";
+
+/* Seafile */
+"More" = "More";
+
+/* Seafile */
+"Move" = "移動";
+
+/* Seafile */
+"MoveTo" = "移動";
+
+/* Seafile */
+"Moved" = "Moved";
+
+/* Seafile */
+"Moved directory" = "Moved directory";
+
+/* Seafile */
+"Moving files ..." = "ファイルを移動しています";
+
+/* Seafile */
+"Moved folder" = "Moved folder";
+
+/* Seafile */
+"Moved file" = "Moved file";
+
+/* Seafile */
+"My Own Libraries" = "自分のライブラリー";
+
+/* Seafile */
+"NO" = "NO";
+
+/* FailToPreview_iPad.xib, FailToPreview_iPhone.xib, SeafCell.xib, SeafDirCell.xib, SeafMessageCell.xib, SeafUploadDirViewController.xib */
+"Name" = "名前";
+
+/* Seafile */
+"Network unavailable" = "ネットワークが利用できません";
+
+/* Seafile */
+"New File" = "新規ファイル";
+
+/* Seafile */
+"New Folder" = "新規フォルダ";
+
+/* Seafile */
+"New file name" = "新規ファイル名";
+
+/* Seafile */
+"New folder name" = "新規フォルダ名";
+
+/* Seafile */
+"New Library" = "New Library";
+
+/* Seafile */
+"New library name" = "New Library Name";
+
+/* Seafile */
+"No Results" = "結果がありません";
+
+/* Seafile */
+"No available certificates" = "No available certificates";
+
+/* Seafile */
+"OK" = "OK";
+
+/* Seafile */
+"Open elsewhere..." = "他の場所へ開いています...";
+
+/* Seafile */
+"Open in other applications" = "他のアプリケーションで開く";
+
+/* Seafile */
+"Open photo browser" = "Open photo browser";
+
+/* Seafile */
+"Open Seafile to view details" = "Open Seafile to view details";
+
+/* Seafile */
+"Organization" = "Organization";
+
+/* Seafile */
+"Other Server" = "Other Server";
+
+/* Seafile */
+"Out of quota" = "Out of quota";
+
+/* Seafile */
+"Password" = "パスワード";
+
+/* Seafile */
+"Password must not be empty" = "空のパスワードは禁止されています";
+
+/* Seafile */
+"Password of '%@'" = "Password of '%@'";
+
+/* Seafile */
+"Password of library '%@'" = "Password of library '%@'";
+
+/* Seafile */
+"Password required" = "パスワードが要求されています";
+
+/* Seafile */
+"Password (at least 8 characters)" = "Password (at least 8 characters)";
+
+/* Seafile */
+"Please enter your password again" = "Please enter your password again";
+
+/* Seafile */
+"Password must at least 8 characters" = "Password must at least 8 characters";
+
+/* Seafile */
+"Two passwords are different" = "Two passwords are different";
+
+/* Seafile */
+"PasteTo" = "貼り付け";
+
+/* Seafile */
+"Photos" = "写真";
+
+/* Seafile */
+"Photos are not accessible" = "写真へアクセスできません";
+
+/* Seafile */
+"Please authenticate to proceed" = "Please authenticate to proceed";
+
+/* Seafile */
+"Please disable \"Auto clear passwords\" for auto uploading photos to an encrypted library." = "Please disable \"Auto clear passwords\" for auto uploading photos to an encrypted library.";
+
+/* Seafile */
+"Please disable \"Auto clear passwords\" for uploading contacts to an encrypted library." = "Please disable \"Auto clear passwords\" for uploading contacts to an encrypted library.";
+
+/* Seafile */
+"Please enable \"Local decryption\" for auto uploading photos to an encrypted library." = "Please enable \"Local decryption\" for auto uploading photos to an encrypted library.";
+
+/* Seafile */
+"Please enable \"Local decryption\" for uploading contacts to an encrypted library." = "Please enable \"Local decryption\" for uploading contacts to an encrypted library.";
+
+/* Seafile */
+"Post a discussion to group" = "グループへディスカッションを追加する";
+
+/* Seafile */
+"Preview" = "プレビュー";
+
+/* Seafile */
+"Print" = "印刷";
+
+/* Seafile */
+"Publish draft" = "Publish draft";
+
+/* Pull down to get more messages */
+"Pull down to get more messages..." = "Pull down to get more messages...";
+
+/* Pull to refresh status */
+"Pull to refresh..." = "Pull to refresh...";
+
+/* Seafile */
+"Recovered deleted directory" = "Recovered deleted directory";
+
+/* Seafile */
+"Redownload" = "再ダウンロード";
+
+/* Release to get more messages */
+"Release to get more messages..." = "Release to get more messages...";
+
+/* Release to refresh status */
+"Release to refresh..." = "Release to refresh...";
+
+/* Seafile */
+"Removed all items from trash" = "Removed all items from trash";
+
+/* Seafile */
+"Removed items older than %ld days from trash" = "Removed items older than %ld days from trash";
+
+/* Seafile */
+"Remove client certificate" = "Remove client certificate";
+
+/* Seafile */
+"Removed" = "Removed";
+
+/* Seafile */
+"Removed directory" = "Removed directory";
+
+/* Seafile */
+"Removed file" = "Removed file";
+
+/* Seafile */
+"Rename" = "名前を変更";
+
+/* Seafile */
+"Renamed" = "Renamed";
+
+/* Seafile */
+"Renamed directory" = "Renamed directory";
+
+/* Seafile */
+"Renaming file ..." = "ファイル名を変更しています";
+
+/* Seafile */
+"Renamed library" = "Renamed library";
+
+/* Seafile */
+"Renamed folder" = "Renamed folder";
+
+/* Seafile */
+"Renamed file" = "Renamed file";
+
+/* Seafile */
+"Replace" = "交換";
+
+/* Seafile */
+"Reset repo password" = "Reset repo password";
+
+/* Seafile */
+"Restore Contacts" = "Restore Contacts";
+
+/* Seafile */
+"Restoring contacts." = "Restoring contacts.";
+
+/* Seafile */
+"Restored library" = "Restored library";
+
+/* Seafile */
+"Restored folder" = "Restored folder";
+
+/* Seafile */
+"Restored file" = "Restored file";
+
+/* Seafile */
+"Reverted file \"%@\" to status at %@." = "Reverted file \"%1$@\" to status at %2$@.";
+
+/* Seafile */
+"Reverted library to status at" = "Reverted library to status at";
+
+/* Seafile push notification message */
+"SEAFILE_LOC_KEY_FORMAT" = "%@, you got new messages from %@";
+
+/* Seafile */
+"Save" = "保存";
+
+/* Seafile */
+"Save Destination" = "Save Destination";
+
+/* Seafile */
+"Save all photos to album" = "Save all photos to album";
+
+/* Seafile */
+"Save to %@" = "Save to %@";
+
+/* MainInterface.storyboard */
+"Save to Seafile" = "Save to Seafile";
+
+/* Seafile */
+"Save to album" = "アルバムへ保存する";
+
+/* Seafile */
+"Saving all photos to album" = "Saving all photos to album";
+
+/* Seafile */
+"Seafile" = "Seafile";
+
+/* Seafile */
+"Search" = "検索";
+
+/* Seafile */
+"Search files in this library" = "Search files in this library";
+
+/* Seafile */
+"Search is not supported on the server" = "このサーバーでの検索には対応していません";
+
+/* Seafile */
+"Searching" = "検索中";
+
+/* Seafile */
+"Searching ..." = "検索中...";
+
+/* Seafile */
+"Select All" = "すべて選択";
+
+/* Seafile */
+"Select None" = "すべて選択をはずす";
+
+/* Seafile */
+"Select a certificate" = "Select a certificate";
+
+/* No comment provided by engineer. */
+"Send" = "送信";
+
+/* Seafile */
+"Send share link via email" = "Send share link via email";
+
+/* Seafile */
+"Sending" = "送信中";
+
+/* Seafile */
+"Sending..." = "送信しています...";
+
+/* Seafile */
+"Server" = "サーバー";
+
+/* Seafile */
+"Server must not be empty" = "空のサーバーは禁止されています";
+
+/* Seafile */
+"Server, like https://seafile.cc" = "サーバー、例えば https://seafile.cc";
+
+/* Seafile */
+"Settings" = "設定";
+
+/* Seafile */
+"Shared to me" = "Shared to me";
+
+/* Seafile */
+"Shared with groups" = "Shared with groups";
+
+/* Seafile */
+"Share" = "Share";
+
+/* Seafile */
+"Shibboleth" = "Shibboleth";
+
+/* Seafile */
+"Shibboleth Login" = "Shibboleth Login";
+
+/* Seafile */
+"Single Sign On" = "Single Sign On";
+
+/* Seafile */
+"Sort by Last Modifed Time" = "Sort by Last Modifed Time";
+
+/* Seafile */
+"Sort by Name" = "Sort by Name";
+
+/* Seafile */
+"Space Used" = "Space Used";
+
+/* Seafile */
+"Star" = "Star";
+
+/* Seafile */
+"Starred" = "スター付き";
+
+/* Seafile */
+"Start to download folder: " = "Start to download folder: ";
+
+/* Seafile */
+"Start to download library: " = "Start to download library: ";
+
+/* Seafile */
+"Succeeded to remove certificate" = "Succeeded to remove certificate";
+
+/* Seafile */
+"Succeeded to restore contacts" = "Succeeded to restore contacts";
+
+/* Seafile */
+"Succeeded to save %@ to album" = "Succeeded to save %@ to album";
+
+/* Seafile */
+"Succeeded to copy %@ to clipboard" = "Succeeded to copy %@ to clipboard";
+
+/* Seafile */
+"Successfully imported %@" = "Successfully imported %@";
+
+/* Seafile */
+"Successfully moved" = "Successfully moved";
+
+/* Seafile */
+"Successfully copied" = "Successfully copied";
+
+/* Seafile */
+"Tell Friends about %@" = "Tell Friends about %@";
+
+/* Seafile */
+"The certificate from this website has been changed. Would you like to connect to the server anyway?" = "このウェブサイトの証明書は変更です。このサーバーにどうしても接続しますか？";
+
+/* Seafile */
+"The certificate from this website is invalid. Would you like to connect to the server anyway?" = "このウェブサイトの証明書は無効です。このサーバーにどうしても接続しますか？";
+
+/* Seafile */
+"The length of password should be between 3 and 100" = "パスワードの長さは3〜100文字の間にして下さい";
+
+/* Seafile */
+"The mail account has not been set yet" = "このメールアカウントは設定されていません";
+
+/* Seafile */
+"The token is invalid, you need to login again" = "The token is invalid, you need to login again";
+
+/* Seafile */
+"There is no app which can open this type of file on this machine" = "There is no app which can open this type of file on this machine";
+
+/* Seafile */
+"There was a problem verifying your identity." = "There was a problem verifying your identity.";
+
+/* Seafile */
+"This app does not have access to your contacts." = "This app does not have access to your contacts.";
+
+/* Seafile */
+"There is no account available" = "There is no account available.";
+
+/* Seafile */
+"This app does not have access to your location service." = "This app does not have access to your location service.";
+
+/* Seafile */
+"This app does not have access to your photos and videos." = "This app does not have access to your photos and videos.";
+
+/* Seafile */
+"This function is not supportted yet" = "This function is not supportted yet";
+
+/* Seafile */
+"This function is not supportted yet，you can copy it to the pasteboard and send mail by yourself" = "This function is not supportted yet，you can copy it to the pasteboard and send mail by yourself";
+
+/* Seafile */
+"Two step verification code" = "Two step verification code";
+
+/* Seafile */
+"Unstar" = "Unstar";
+
+/* Seafile */
+"Upload" = "アップロード";
+
+/* Seafile */
+"Upload Destination" = "Upload Destination";
+
+/* Seafile */
+"Upload Videos" = "Upload Videos";
+
+/* Seafile */
+"Updated file" = "Upload file";
+
+/* Seafile */
+"Updated draft" = "Upload draft";
+
+/* NSPhotoLibraryUsageDescription */
+"Used to sync photos" = "Used to sync photos";
+
+/* Seafile */
+"Username" = "ユーザー名";
+
+/* Seafile */
+"Username must not be empty" = "空のユーザー名は禁止されています";
+
+/* Seafile */
+"Verification code must not be empty" = "Verification code must not be empty";
+
+/* Seafile */
+"Version" = "バージョン";
+
+/* Seafile */
+"Website" = "ウェブサイト";
+
+/* Seafile */
+"Welcome to %@" = "Welcome to %@";
+
+/* Seafile */
+"Wifi Only" = "Wifi Only";
+
+/* Seafile */
+"Wipe Cache" = "キャッシュを削除する";
+
+/* Seafile */
+"Wrong library password" = "ライブラリーパスワードが違います";
+
+/* Seafile */
+"Wrong password" = "Wrong password";
+
+/* Seafile */
+"Wrong username or password" = "ユーザー名かパスワードが違います";
+
+/* Seafile */
+"YES" = "YES";
+
+/* Seafile */
+"You can enable access in Privacy Settings" = "You can enable access in Privacy Settings";
+
+/* Seafile */
+"Your device cannot authenticate using Touch ID." = "Your device cannot authenticate using Touch ID.";
+
+/* Seafile */
+"Your device cannot authenticate using Face ID." = "Your device cannot authenticate using Face ID.";
+
+/* Seafile */
+"and %@ more" = "and %@ more";
+
+/* SeafCell.xib */
+"detail" = "detail";
+
+/* Seafile */
+"directories" = "directories";
+
+/* Seafile */
+"files" = "files";
+
+/* Seafile */
+"modified" = "modified";
+
+/* Seafile */
+"Uploading" = "Uploading";
+
+/* Seafile */
+"Downloading" = "Downloading";
+
+/* Seafile */
+"Upload & Download" = "Upload & Download";
+
+/* Seafile */
+"Completed" = "Completed";
+
+/* waiting to upload */
+"Waiting to upload" = "%Waiting to upload";
+
+/* FolderView_iPad.storyboard, FolderView_iPhone.storyboard */
+"www.seafile.com" = "www.seafile.com";
+
+/* Share to WeChat */
+"Share to WeChat" = "Share to WeChat";
+
+/* Share Cancelled */
+"Share Cancelled" = "Share Cancelled";
+
+/* Failed to share to WeChat */
+"Failed to share to WeChat" = "Failed to share to WeChat";
+
+/* OK and Remember Device */
+"OK and Remember Device" = "OK and Remember Device";
+
+/* Privacy Policy */
+"Privacy Policy" = "Privacy Policy";
+
+/* Privacy Policy URL */
+"https://www.seafile.com/en/privacy_policy/" = "https://www.seafile.com/en/privacy_policy/";
+
+/*  TouchID is Enabled  */
+"FaceID(TouchID) is Enabled" = "FaceID(TouchID) is Enabled";
+
+/* Files cannot be used whith TouchID */
+"Files cannot access files in Seafile when FaceID(TouchID) enabled. Please open Seafile and disable FaceID(TouchID)." = "Files cannot access files in Seafile when FaceID(TouchID) enabled. Please open Seafile and disable FaceID(TouchID).";
+
+/* Seafile */
+"Please open Seafile ans add an account to start" = "Please open Seafile ans add an account to start.";

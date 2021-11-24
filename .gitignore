@@ -1,0 +1,16 @@
+Example/AFNetworking Mac Example.xcodeproj/xcuserdata/
+Example/AFNetworking iOS Example.xcodeproj/xcuserdata/
+seafilePro.xcodeproj/project.xcworkspace
+seafilePro.xcodeproj/xcuserdata
+seafilePro.xcodeproj/xcshareddata
+*~
+*.bak
+.DS_Store
+Pods
+seafilePro.xcworkspace/
+*.ipa
+TODO
+Podfile.lock
+common/*.lproj
+SeafProvider/*.lproj
+SeafAction/*.lproj

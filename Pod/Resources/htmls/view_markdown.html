@@ -1,0 +1,45 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./mobile.css">
+  <link rel="stylesheet" type="text/css" href="./pagedown.css">
+  <style type="text/css">
+      #md-view {
+      overflow:auto;
+      padding:0 10px;
+      }
+      .article p {
+      margin:0 0 0 1em;
+      }
+      .article h1 {
+      margin:0.5em 0 0 0;
+      }
+    </style>
+<script type="text/javascript" src="./jq.min.js"></script>
+<script type="text/javascript" src="./Markdown.Converter.js"></script>
+<script type="text/javascript" src="./Markdown.Extra.js"></script>
+<script type="text/javascript">
+    var converter = new Markdown.Converter();
+    Markdown.Extra.init(converter, {extensions: ["fenced_code_gfm", "tables", "def_list"]});
+    function setContent(content) {
+      html=converter.makeHtml(content)
+      console.log(html)
+      $('#md-view').html(html)
+    return 1
+  }
+</script>
+</head>
+<body style="overflow:auto">
+  <div id="wrapper" class="en">
+    <div id="main">
+      <div id="main-panel" class="clear w100 ovhd" style="margin-bottom: 0px;">
+        <div id="file-view">
+          <div id="md-view" class="article"	style="font-size:16px; overflow:auto">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div><!-- wrapper -->
+</body></html>

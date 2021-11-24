@@ -1,0 +1,1069 @@
+﻿
+
+/* Seafile */
+"%@ can't verify the identity of the website \"%@\"" = "%1$@ can't verify the identity of the website \"%2$@\"";
+
+/* Seafile */
+"%@ does not support to preview file of this kind at the moment." = "%@ does not support to preview file of this kind at the moment.";
+
+/* Seafile */
+"%@ invite you to %@" = "%1$@ invite you to %2$@";
+
+/* Seafile */
+"%@, Uploaded %@" = "%1$@, şunu yükledi: %2$@";
+
+/* Seafile */
+"%@, uploading" = "%@, yükleniyor";
+
+/* Seafile */
+"%@, waiting to upload" = "%@, yüklemek için bekliyor";
+
+/* Seafile */
+"%ld photos remain" = "%ld photos remain";
+
+/* Seafile */
+"%ld files are uploaded to Seafile" = "%ld files are uploaded to Seafile";
+
+/* Seafile */
+"1 photo remain" = "1 photo remain";
+
+/* Seafile */
+"%ld days ago" = "%ld days ago";
+
+/* Seafile */
+"%ld hours ago" = "%ld hours ago";
+
+/* Seafile */
+"%ld minutes ago" = "%ld minutes ago";
+
+/* Seafile */
+"%ld months ago" = "%ld months ago";
+
+/* Seafile */
+"%ld years ago" = "%ld years ago";
+
+/* Seafile */
+"a day ago" = "a day ago";
+
+/* Seafile */
+"a few seconds ago" = "a few seconds ago";
+
+/* Seafile */
+"an hour ago" = "an hour ago";
+
+/* Seafile */
+"a minute ago" = "a minute ago";
+
+/* Seafile */
+"a month ago" = "a month ago";
+
+/* Seafile */
+"a year ago" = "a year ago";
+
+/* Seafile */
+"A file with the same name already exists, do you want to overwrite?" = "A file with the same name already exists, do you want to overwrite?";
+
+/* Seafile */
+"About" = "Hakkında";
+
+/* Seafile */
+"Account" = "Account";
+
+/* Seafile */
+"Account Info" = "Hesap Bilgisi";
+
+/* Seafile */
+"Accounts" = "Hesaplar";
+
+/* Seafile */
+"Activities" = "Etkinlikler";
+
+/* Seafile */
+"Activity" = "Etkinlik";
+
+/* Seafile */
+"Add a new discussion" = "Yeni bir tartışma ekle";
+
+/* Seafile */
+"Add account" = "Hesap ekle";
+
+/* Seafile */
+"Add contact" = "Kişi ekle";
+
+/* Seafile */
+"Added" = "Added";
+
+/* Seafile */
+"Added directory" = "Added directory";
+
+/* Seafile */
+"Added file" = "Added file";
+
+/* Seafile */
+"Added or modified" = "Added or modified";
+
+/* Seafile */
+"All photos synced" = "All photos synced";
+
+/* Seafile */
+"Are you sure to clear all the cache?" = "Tüm ön belleği silmek istediğinize emin misiniz?";
+
+/* Seafile */
+"Are you sure to cancel all downloading tasks?" = "Are you sure to cancel all downloading tasks?";
+
+/* Seafile */
+"Are you sure to cancel all uploading tasks" = "Are you sure to cancel all uploading tasks";
+
+/* Seafile */
+"Are you sure to log out?" = "Are you sure to log out?";
+
+/* Seafile */
+"Are you sure you want to delete %@ ?" = "Are you sure you want to delete %@ ?";
+
+/* Seafile */
+"Are you sure to save all photos to album?" = "Are you sure to save all photos to album";
+
+/* Seafile */
+"Auto Upload" = "Auto Upload";
+
+/* Auto cleay library password */
+"Auto clear passwords" = "Auto clear passwords";
+
+/* Seafile */
+"Auto merge by seafile system" = "Auto merge by seafile system";
+
+/* Seafile */
+"Auto upload should be enabled first." = "Auto upload should be enabled first.";
+
+/* Seafile */
+"Back" = "Geri";
+
+/* Seafile */
+"Back to Last Account" = "En son hesaba geri dön";
+
+/* Seafile */
+"Background Upload" = "Background Upload";
+
+/* Seafile */
+"Backup Contacts" = "Backup Contacts";
+
+/* Seafile */
+"Cache" = "Ön bellek";
+
+/* FolderView_iPad.storyboard */
+"Camera Upload" = "Kamera Yüklemesi";
+
+/* Seafile */
+"Can not remove certificate because it is still in use" = "Can not remove certificate because it is still in use";
+
+/* Seafile */
+"Cancel" = "İptal et";
+
+/* Seafile */
+"Cancel download" = "İndirmeyi İptal Et";
+
+/* Seafile */
+"Cancel upload" = "Cancel upload";
+
+/* Seafile */
+"Changed library name or description" = "Changed library name or description";
+
+/* Seafile */
+"Checking library password ..." = "Kütüphane şifresi kontrol ediliyor...";
+
+/* Seafile */
+"Choose" = "Seç";
+
+/* Seafile */
+"Choose directory" = "Choose directory";
+
+/* Seafile */
+"Choose a Seafile server" = "Choose a Seafile server";
+
+/* Seafile */
+"Choose an account to start" = "Başlamak için bir hesap seçin";
+
+/* Seafile */
+"Clear libraries passwords successfully." = "Clear libraries passwords successfully.";
+
+/* Seafile */
+"Clear library password successfully." = "Clear library password successfully.";
+
+/* Seafile */
+"Clear password" = "Clear password";
+
+/* Seafile */
+"Clear remembered passwords" = "Clear remembered passwords";
+
+/* Seafile */
+"Click \"Search\" to start" = "Başlamak için \"Ara\" yı tıklayın";
+
+/* Seafile */
+"Connecting to server" = "Sunucuya bağlanıyor";
+
+/* Seafile */
+"Contacts Backup" = "Contacts Backup";
+
+/* Seafile */
+"Contacts backup failed." = "Contacts backup failed.";
+
+/* Seafile */
+"Contacts backup should be enabled first." = "Contacts backup should be enabled first.";
+
+/* Seafile */
+"Contacts backup succeeded." = "Contacts backup succeeded.";
+
+/* Seafile */
+"Contacts will be backuped as: %@ " = "Contacts will be backuped as: %@ ";
+
+/* Seafile */
+"Copy" = "Kopyala";
+
+/* Seafile */
+"Copy Link to Clipboard" = "Bağlantıyı panoya kopyala";
+
+/* Seafile */
+"Copy image to clipboard" = "Görseli panoya kopyala";
+
+/* Seafile */
+"Copy share link to clipboard" = "Paylaşım bağlantısını panoya kopyala";
+
+/* Seafile */
+"Copying files ..." = "Dosyalar kopyalanıyor...";
+
+/* Seafile */
+"Created library %@" = "Created library %@";
+
+/* Seafile */
+"Creating file ..." = "Dosya oluşturuyor...";
+
+/* Seafile */
+"Creating folder ..." = "Klasör oluşturuyor...";
+
+/* Seafile */
+"Creating library ..." = "Creating library ...";
+
+/* Seafile */
+"Created library" = "Created library";
+
+/* Seafile */
+"Created folder" = "Created folder";
+
+/* Seafile */
+"Created file" = "Created file";
+
+/* Seafile */
+"Created %ld files" = "Created %ld files";
+
+/* Seafile */
+"Created draft" = "Created draft";
+
+/* Seafile */
+"Delete" = "Sil";
+
+/* Seafile */
+"Deleted" = "Deleted";
+
+/* Seafile */
+"Deleted library %@" = "Deleted library %@";
+
+/* Seafile */
+"Deleting directory ..." = "Dizini siliyor...";
+
+/* Seafile */
+"Deleting file ..." = "Dosyayı siliyor...";
+
+/* Seafile */
+"Deleting files ..." = "Dosyaları siliyor...";
+
+/* Seafile */
+"Deleted library" = "Deleted library";
+
+/* Seafile */
+"Deleted folder" = "Deleted folder";
+
+/* Seafile */
+"Deleted file" = "Deleted file";
+
+/* Seafile */
+"Deleted draft" = "Deleted draft";
+
+/* Seafile */
+"Destination" = "Hedef dosya";
+
+/* Seafile */
+"Directory '%@' is shared with you using %@" = "Directory '%1$@' is shared with you using %2$@";
+
+/* Seafile */
+"Discussion" = "Tartışma";
+
+/* Seafile */
+"Do you want reset the uploaded photos?" = "Yüklenen fotoğrafları sıfırlamak istiyor musunuz?";
+
+/* Seafile */
+"Do you want to backup contacts now? " = "Do you want to backup contacts now? ";
+
+/* Seafile */
+"Download" = "Download";
+
+/* Seafile */
+"Edit" = "Düzenle";
+
+/* Seafile */
+"Email" = "Eposta";
+
+/* Seafile */
+"Email or Username" = "Email or Username";
+
+/* Seafile */
+"Enable TouchID" = "Enable TouchID";
+
+/* Seafile */
+"Enable FaceID" = "Enable Face ID";
+
+/* Seafile */
+"Encrypted Libraries" = "Encrypted Libraries";
+
+/* Seafile */
+"Encrypted" = "Encrypted";
+
+/* Seafile */
+"Failed to add discussion" = "Tartışma ekleme başarısız oldu";
+
+/* Seafile */
+"Failed to authenticate" = "Failed to authenticate";
+
+/* Seafile */
+"Failed to copy files" = "Dosya kopyalama başarısız";
+
+/* Seafile */
+"Failed to create file" = "Dosya oluşturma başarısız";
+
+/* Seafile */
+"Failed to create folder" = "Klasör oluşturma başarısız";
+
+/* Seafile */
+"Failed to create library" = "Failed to create library";
+
+/* Seafile */
+"Failed to delete files" = "Dosyalar silinemedi.";
+
+/* Seafile */
+"Failed to download file '%@'" = "Failed to download file '%@'";
+
+/* Seafile */
+"Failed to find %@" = "Failed to find %@";
+
+/* Seafile */
+"Failed to find library" = "Failed to find library";
+
+/* Seafile */
+"Failed to generate share link of directory '%@'" = "'%@' dizininin paylaşım bağlantısı oluşturulamadı. ";
+
+/* Seafile */
+"Failed to generate share link of file '%@'" = " '%@' dosyasının paylaşım bağlantısı oluşturulamadı.";
+
+/* Seafile */
+"Failed to get groups ..." = "Grup alma başarısız...";
+
+/* Seafile */
+"Failed to get messages" = "Mesajlar alınamadı";
+
+/* Seafile */
+"Failed to get modification details" = "Failed to get modification details";
+
+/* Seafile */
+"Failed to get starred files" = "Yıldızlı dosyalar alınamadı";
+
+/* Seafile */
+"Failed to identify the coding of '%@'" = "'%@' kodlaması saptanamadı";
+
+/* Seafile */
+"Failed to load activities" = "Etkinlikler yüklenemedi";
+
+/* Seafile */
+"Failed to load content of the directory" = "Dizin içeriğini yükleme başarısız oldu";
+
+/* Seafile */
+"Failed to load files" = "Dosyalar yüklenemedi";
+
+/* Seafile */
+"Failed to login" = "Giriş başarısız";
+
+/* Seafile */
+"Failed to move files" = "Dosya taşıma başarısız";
+
+/* Seafile */
+"Failed to open file" = "Failed to open file";
+
+/* Seafile */
+"Failed to remove certificate" = "Failed to remove certificate";
+
+/* Seafile */
+"Failed to rename file" = "Dosya yeniden adlandırılamadı";
+
+/* Seafile */
+"Failed to restore contacts." = "Failed to restore contacts.";
+
+/* Seafile */
+"Failed to save %@ to album" = "%@ albüme kaydedilemedi";
+
+/* Seafile */
+"Failed to copy %@ to clipboard" = "Failed to copy %@ to clipboard";
+
+/* Seafile */
+"Failed to save account" = "Failed to save account";
+
+/* Seafile */
+"Failed to search" = "Arama başarısız";
+
+/* Seafile */
+"Failed to send message" = "Mesaj gönderme başarısız";
+
+/* Seafile */
+"Failed to upload file" = "Dosya yükleme başarısız";
+
+/* Seafile */
+"File '%@' is shared with you using %@" = "File '%1$@' is shared with you using %2$@";
+
+/* Seafile */
+"File '%@' is too large to edit" = "'%@' dosyası düzenleme için çok büyük";
+
+/* Seafile */
+"File '%@' uploaded successfully" = "'%@' dosyası başarıyla yüklendi";
+
+/* Seafile */
+"File name invalid" = "Dosya adı geçersiz";
+
+/* Seafile */
+"File name must not be empty" = "Dosya adı boş bırakılamaz";
+
+/* Seafile */
+"Files with the same name already exist, do you want to overwrite?" = "Files with the same name already exist, do you want to overwrite?";
+
+/* Seafile */
+"File can not be shared" = "File can not be shared";
+
+/* Seafile */
+"Folder name invalid" = "Geçersiz klasör adı";
+
+/* Seafile */
+"Folder name must not be empty" = "Klasör adı boş bırakılamaz";
+
+/* Seafile */
+"For example: https://seacloud.cc or http://192.168.1.24:8000" = "Örneğin: ";
+
+/* Seafile */
+"Generate share link ..." = "Paylaşım bağlantısı oluştur...";
+
+/* Seafile */
+"Generate share link success" = "Paylaşım bağlantısı oluşturma başarılı";
+
+/* Seafile */
+"Group discussion" = "Grup tartışması";
+
+/* Seafile */
+"Hey there!<br/><br/> I've been using %@ and thought you might like it. It is a free way to bring all you files anywhere and share them easily.<br/><br/>Go to the official website of %@:</br></br> <a href=\"%@\">%@</a>\n\n" = "Hey there!<br/><br/> I've been using %1$@ and thought you might like it. It is a free way to bring all you files anywhere and share them easily.<br/><br/>Go to the official website of %2$@:</br></br> <a href=\"%3$@\">%4$@</a>\n\n";
+
+/* Seafile */
+"Hi,<br/><br/>Here is a link to <b>'%@'</b> in my %@:<br/><br/> <a href=\"%@\">%@</a>\n\n" = "Hi,<br/><br/>Here is a link to <b>'%1$@'</b> in my %2$@:<br/><br/> <a href=\"%3$@\">%4$@</a>\n\n";
+
+/* Seafile */
+"Hi,<br/><br/>Here is a link to directory <b>'%@'</b> in my %@:<br/><br/> <a href=\"%@\">%@</a>\n\n" = "Hi,<br/><br/>Here is a link to directory <b>'%1$@'</b> in my %2$@:<br/><br/> <a href=\"%3$@\">%4$@</a>\n\n";
+
+/* Seafile */
+"How would you like to share this file?" = "Bu dosyayı nasıl paylaşmak istersiniz?";
+
+/* Seafile */
+"Hide" = "Hide";
+
+/* Seafile */
+"Import client certificate" = "Import client certificate";
+
+/* Seafile */
+"Invalid Server" = "Geçersiz Sunucu";
+
+/* Seafile */
+"Invalid email" = "Geçersiz eposta";
+
+/* Seafile */
+"Last Backup Time" = "Last Backup Time";
+
+/* No comment provided by engineer. */
+"Last Updated: %@" = "En son güncelleme: %@";
+
+/* Seafile */
+"Libraries" = "Kütüphaneler";
+
+/* Loading Status */
+"Loading..." = "Yükleniyor...";
+
+/* Seafile */
+"Local Cache" = "Yerel Ön bellek";
+
+/* Local decryption */
+"Local decryption" = "Local decryption";
+
+/* Seafile */
+"Log out" = "Log out";
+
+/* Seafile */
+"Login" = "Giriş";
+
+/* Seafile */
+"Library name invalid" = "Library name invalid";
+
+/* Seafile */
+"Library name must not be empty" = "Library name must not be empty";
+
+/* Seafile */
+"Message" = "Mesaj";
+
+/* Seafile */
+"Messages" = "Mesajlar";
+
+/* Seafile */
+"Modification Details" = "Modification Details";
+
+/* Seafile */
+"Modified" = "Modified";
+
+/* Seafile */
+"Modified file" = "Modified file";
+
+/* Seafile */
+"More" = "More";
+
+/* Seafile */
+"Move" = "Taşı";
+
+/* Seafile */
+"MoveTo" = "Şuraya taşı";
+
+/* Seafile */
+"Moved" = "Moved";
+
+/* Seafile */
+"Moved directory" = "Moved directory";
+
+/* Seafile */
+"Moving files ..." = "Dosyaları taşıyor...";
+
+/* Seafile */
+"Moved folder" = "Moved folder";
+
+/* Seafile */
+"Moved file" = "Moved file";
+
+/* Seafile */
+"My Own Libraries" = "Benim Kütüphanelerim";
+
+/* Seafile */
+"NO" = "NO";
+
+/* FailToPreview_iPad.xib, FailToPreview_iPhone.xib, SeafCell.xib, SeafDirCell.xib, SeafMessageCell.xib, SeafUploadDirViewController.xib */
+"Name" = "İsim";
+
+/* Seafile */
+"Network unavailable" = "Ağ kullanılamıyor";
+
+/* Seafile */
+"New File" = "Yeni Dosya";
+
+/* Seafile */
+"New Folder" = "Yeni Klasör";
+
+/* Seafile */
+"New file name" = "Yeni dosya adı";
+
+/* Seafile */
+"New folder name" = "Yeni klasör adı";
+
+/* Seafile */
+"New Library" = "New Library";
+
+/* Seafile */
+"New library name" = "New Library Name";
+
+/* Seafile */
+"No Results" = "Sonuç yok";
+
+/* Seafile */
+"No available certificates" = "No available certificates";
+
+/* Seafile */
+"OK" = "Tamam";
+
+/* Seafile */
+"Open elsewhere..." = "Başka yerde aç...";
+
+/* Seafile */
+"Open in other applications" = "Başka uygulamalarda aç";
+
+/* Seafile */
+"Open photo browser" = "Open photo browser";
+
+/* Seafile */
+"Open Seafile to view details" = "Open Seafile to view details";
+
+/* Seafile */
+"Organization" = "Organization";
+
+/* Seafile */
+"Other Server" = "Other Server";
+
+/* Seafile */
+"Out of quota" = "Out of quota";
+
+/* Seafile */
+"Password" = "Şifre";
+
+/* Seafile */
+"Password must not be empty" = "Şifre boş bırakılamaz";
+
+/* Seafile */
+"Password of '%@'" = "Password of '%@'";
+
+/* Seafile */
+"Password of library '%@'" = "Password of library '%@'";
+
+/* Seafile */
+"Password required" = "Şifre gerekli";
+
+/* Seafile */
+"Password (at least 8 characters)" = "Password (at least 8 characters)";
+
+/* Seafile */
+"Please enter your password again" = "Please enter your password again";
+
+/* Seafile */
+"Password must at least 8 characters" = "Password must at least 8 characters";
+
+/* Seafile */
+"Two passwords are different" = "Two passwords are different";
+
+/* Seafile */
+"PasteTo" = "Şuraya yapıştır";
+
+/* Seafile */
+"Photos" = "Fotoğraflar";
+
+/* Seafile */
+"Photos are not accessible" = "Fotoğraflar erişilebilir değil";
+
+/* Seafile */
+"Please authenticate to proceed" = "Please authenticate to proceed";
+
+/* Seafile */
+"Please disable \"Auto clear passwords\" for auto uploading photos to an encrypted library." = "Please disable \"Auto clear passwords\" for auto uploading photos to an encrypted library.";
+
+/* Seafile */
+"Please disable \"Auto clear passwords\" for uploading contacts to an encrypted library." = "Please disable \"Auto clear passwords\" for uploading contacts to an encrypted library.";
+
+/* Seafile */
+"Please enable \"Local decryption\" for auto uploading photos to an encrypted library." = "Please enable \"Local decryption\" for auto uploading photos to an encrypted library.";
+
+/* Seafile */
+"Please enable \"Local decryption\" for uploading contacts to an encrypted library." = "Please enable \"Local decryption\" for uploading contacts to an encrypted library.";
+
+/* Seafile */
+"Post a discussion to group" = "Gruba bir tartışma gönder";
+
+/* Seafile */
+"Preview" = "Önizleme";
+
+/* Seafile */
+"Print" = "Yazdır";
+
+/* Seafile */
+"Publish draft" = "Publish draft";
+
+/* Pull down to get more messages */
+"Pull down to get more messages..." = "Daha çok mesaj almak için aşağı çek...";
+
+/* Pull to refresh status */
+"Pull to refresh..." = "Yenilemek için aşağı çek...";
+
+/* Seafile */
+"Recovered deleted directory" = "Recovered deleted directory";
+
+/* Seafile */
+"Redownload" = "Yeniden indir";
+
+/* Release to get more messages */
+"Release to get more messages..." = "Daha çok mesaj almak için bırak...";
+
+/* Release to refresh status */
+"Release to refresh..." = "Yenilemek için bırak...";
+
+/* Seafile */
+"Removed all items from trash" = "Removed all items from trash";
+
+/* Seafile */
+"Removed items older than %ld days from trash" = "Removed items older than %ld days from trash";
+
+/* Seafile */
+"Remove client certificate" = "Remove client certificate";
+
+/* Seafile */
+"Removed" = "Removed";
+
+/* Seafile */
+"Removed directory" = "Removed directory";
+
+/* Seafile */
+"Removed file" = "Removed file";
+
+/* Seafile */
+"Rename" = "Yeniden adlandır";
+
+/* Seafile */
+"Renamed" = "Renamed";
+
+/* Seafile */
+"Renamed directory" = "Renamed directory";
+
+/* Seafile */
+"Renaming file ..." = "Dosya yeniden adlandırılıyor...";
+
+/* Seafile */
+"Renamed library" = "Renamed library";
+
+/* Seafile */
+"Renamed folder" = "Renamed folder";
+
+/* Seafile */
+"Renamed file" = "Renamed file";
+
+/* Seafile */
+"Replace" = "Yer değiştir";
+
+/* Seafile */
+"Reset repo password" = "Reset repo password";
+
+/* Seafile */
+"Restore Contacts" = "Restore Contacts";
+
+/* Seafile */
+"Restoring contacts." = "Restoring contacts.";
+
+/* Seafile */
+"Restored library" = "Restored library";
+
+/* Seafile */
+"Restored folder" = "Restored folder";
+
+/* Seafile */
+"Restored file" = "Restored file";
+
+/* Seafile */
+"Reverted file \"%@\" to status at %@." = "Reverted file \"%1$@\" to status at %2$@.";
+
+/* Seafile */
+"Reverted library to status at" = "Reverted library to status at";
+
+/* Seafile push notification message */
+"SEAFILE_LOC_KEY_FORMAT" = "%@,  %@ kullanıcısından gelen yeni mesajınız var";
+
+/* Seafile */
+"Save" = "Kaydet";
+
+/* Seafile */
+"Save Destination" = "Save Destination";
+
+/* Seafile */
+"Save all photos to album" = "Save all photos to album";
+
+/* Seafile */
+"Save to %@" = "Save to %@";
+
+/* MainInterface.storyboard */
+"Save to Seafile" = "Save to Seafile";
+
+/* Seafile */
+"Save to album" = "Albüm'e kaydet";
+
+/* Seafile */
+"Saving all photos to album" = "Saving all photos to album";
+
+/* Seafile */
+"Seafile" = "Seafile";
+
+/* Seafile */
+"Search" = "Ara";
+
+/* Seafile */
+"Search files in this library" = "Search files in this library";
+
+/* Seafile */
+"Search is not supported on the server" = "Sunucuda arama desteklenmiyor.";
+
+/* Seafile */
+"Searching" = "Arıyor";
+
+/* Seafile */
+"Searching ..." = "Arıyor...";
+
+/* Seafile */
+"Select All" = "Hepsini Seç";
+
+/* Seafile */
+"Select None" = "Hiçbirini seçme";
+
+/* Seafile */
+"Select a certificate" = "Select a certificate";
+
+/* No comment provided by engineer. */
+"Send" = "Gönder";
+
+/* Seafile */
+"Send share link via email" = "Paylaşım bağlantısını eposta ile gönder";
+
+/* Seafile */
+"Sending" = "Gönderiyor";
+
+/* Seafile */
+"Sending..." = "Gönderiyor...";
+
+/* Seafile */
+"Server" = "Sunucu";
+
+/* Seafile */
+"Server must not be empty" = "Sunucu adı boş bırakılamaz";
+
+/* Seafile */
+"Server, like https://seafile.cc" = "Sunucu, https://seafile.cc gibi";
+
+/* Seafile */
+"Settings" = "Ayarlar";
+
+/* Seafile */
+"Shared to me" = "Shared to me";
+
+/* Seafile */
+"Shared with groups" = "Shared with groups";
+
+/* Seafile */
+"Share" = "Share";
+
+/* Seafile */
+"Shibboleth" = "Shibboleth";
+
+/* Seafile */
+"Shibboleth Login" = "Shibboleth Login";
+
+/* Seafile */
+"Single Sign On" = "Single Sign On";
+
+/* Seafile */
+"Sort by Last Modifed Time" = "Sort by Last Modifed Time";
+
+/* Seafile */
+"Sort by Name" = "Sort by Name";
+
+/* Seafile */
+"Space Used" = "Kullanılan alan";
+
+/* Seafile */
+"Star" = "Star";
+
+/* Seafile */
+"Starred" = "Yıldızlı";
+
+/* Seafile */
+"Start to download folder: " = "Start to download folder: ";
+
+/* Seafile */
+"Start to download library: " = "Start to download library: ";
+
+/* Seafile */
+"Succeeded to remove certificate" = "Succeeded to remove certificate";
+
+/* Seafile */
+"Succeeded to restore contacts" = "Succeeded to restore contacts";
+
+/* Seafile */
+"Succeeded to save %@ to album" = "%@ başarıyla albüme kaydedildi.";
+
+/* Seafile */
+"Succeeded to copy %@ to clipboard" = "Succeeded to copy %@ to clipboard";
+
+/* Seafile */
+"Successfully imported %@" = "Successfully imported %@";
+
+/* Seafile */
+"Successfully moved" = "Successfully moved";
+
+/* Seafile */
+"Successfully copied" = "Successfully copied";
+
+/* Seafile */
+"Tell Friends about %@" = "Tell Friends about %@";
+
+/* Seafile */
+"The certificate from this website has been changed. Would you like to connect to the server anyway?" = "Bu websitesinin sertifikası değişti. Yine de sunucuya bağlanmak istiyor musunuz?";
+
+/* Seafile */
+"The certificate from this website is invalid. Would you like to connect to the server anyway?" = "Bu websitesinin sertifikası geçersiz. Yine de sunucuya bağlanmak istiyor musunuz?";
+
+/* Seafile */
+"The length of password should be between 3 and 100" = "Şifre uzunluğu 3 ile 100 arasında olmalıdır.";
+
+/* Seafile */
+"The mail account has not been set yet" = "Eposta hesabı henüz oluşturulmadı";
+
+/* Seafile */
+"The token is invalid, you need to login again" = "Jeton geçersiz, tekrar giriş yapmanız gerekiyor.";
+
+/* Seafile */
+"There is no app which can open this type of file on this machine" = "Cihazınızda bu tip bir dosyayı açabilecek uygulama bulunmamaktadır.";
+
+/* Seafile */
+"There was a problem verifying your identity." = "There was a problem verifying your identity.";
+
+/* Seafile */
+"This app does not have access to your contacts." = "This app does not have access to your contacts.";
+
+/* Seafile */
+"There is no account available" = "There is no account available.";
+
+/* Seafile */
+"This app does not have access to your location service." = "This app does not have access to your location service.";
+
+/* Seafile */
+"This app does not have access to your photos and videos." = "Bu uygulamanın fotoğraflarınıza ve videolarınıza erişimi yok.";
+
+/* Seafile */
+"This function is not supportted yet" = "Bu fonksiyon henüz desteklenmiyor";
+
+/* Seafile */
+"This function is not supportted yet，you can copy it to the pasteboard and send mail by yourself" = "Bu fonksiyon henüz desteklenmiyor, yapıştırma panosuna kopyalayıp eposta ile kendiniz gönderebilirsiniz";
+
+/* Seafile */
+"Two step verification code" = "Two step verification code";
+
+/* Seafile */
+"Unstar" = "Unstar";
+
+/* Seafile */
+"Upload" = "Yükle";
+
+/* Seafile */
+"Upload Destination" = "Hedef Dosyaya Yükle";
+
+/* Seafile */
+"Upload Videos" = "Upload Videos";
+
+/* Seafile */
+"Updated file" = "Upload file";
+
+/* Seafile */
+"Updated draft" = "Upload draft";
+
+/* NSPhotoLibraryUsageDescription */
+"Used to sync photos" = "Used to sync photos";
+
+/* Seafile */
+"Username" = "Kullanıcı Adı";
+
+/* Seafile */
+"Username must not be empty" = "Kullanıcı adı boş bırakılamaz";
+
+/* Seafile */
+"Verification code must not be empty" = "Verification code must not be empty";
+
+/* Seafile */
+"Version" = "Versiyon";
+
+/* Seafile */
+"Website" = "Website";
+
+/* Seafile */
+"Welcome to %@" = "Welcome to %@";
+
+/* Seafile */
+"Wifi Only" = "Sadece Wifi";
+
+/* Seafile */
+"Wipe Cache" = "Ön belleği sil";
+
+/* Seafile */
+"Wrong library password" = "Hatalı kütüphane şifresi";
+
+/* Seafile */
+"Wrong password" = "Wrong password";
+
+/* Seafile */
+"Wrong username or password" = "Hatalı kullanıcı adı ya da şifre ";
+
+/* Seafile */
+"YES" = "YES";
+
+/* Seafile */
+"You can enable access in Privacy Settings" = "Gizlilik ayarlarından erişimi etkinleştirebilirsiniz";
+
+/* Seafile */
+"Your device cannot authenticate using Touch ID." = "Your device cannot authenticate using Touch ID.";
+
+/* Seafile */
+"Your device cannot authenticate using Face ID." = "Your device cannot authenticate using Face ID.";
+
+/* Seafile */
+"and %@ more" = "and %@ more";
+
+/* SeafCell.xib */
+"detail" = "detail";
+
+/* Seafile */
+"directories" = "directories";
+
+/* Seafile */
+"files" = "files";
+
+/* Seafile */
+"modified" = "modified";
+
+/* Seafile */
+"Uploading" = "Uploading";
+
+/* Seafile */
+"Downloading" = "Downloading";
+
+/* Seafile */
+"Upload & Download" = "Upload & Download";
+
+/* Seafile */
+"Completed" = "Completed";
+
+/* waiting to upload */
+"Waiting to upload" = "%Waiting to upload";
+
+/* FolderView_iPad.storyboard, FolderView_iPhone.storyboard */
+"www.seafile.com" = "www.seafile.com";
+
+/* Share to WeChat */
+"Share to WeChat" = "Share to WeChat";
+
+/* Share Cancelled */
+"Share Cancelled" = "Share Cancelled";
+
+/* Failed to share to WeChat */
+"Failed to share to WeChat" = "Failed to share to WeChat";
+
+/* OK and Remember Device */
+"OK and Remember Device" = "OK and Remember Device";
+
+/* Privacy Policy */
+"Privacy Policy" = "Privacy Policy";
+
+/* Privacy Policy URL */
+"https://www.seafile.com/en/privacy_policy/" = "https://www.seafile.com/en/privacy_policy/";
+
+/*  TouchID is Enabled  */
+"FaceID(TouchID) is Enabled" = "FaceID(TouchID) is Enabled";
+
+/* Files cannot be used whith TouchID */
+"Files cannot access files in Seafile when FaceID(TouchID) enabled. Please open Seafile and disable FaceID(TouchID)." = "Files cannot access files in Seafile when FaceID(TouchID) enabled. Please open Seafile and disable FaceID(TouchID).";
+
+/* Seafile */
+"Please open Seafile ans add an account to start" = "Please open Seafile ans add an account to start.";
