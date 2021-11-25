@@ -9,14 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "StartViewController.h"
 enum ACCOUNT_TYPE {
-    ACCOUNT_SEACLOUD = 0,
-    ACCOUNT_SHIBBOLETH,
-    ACCOUNT_OTHER,
+    ACCOUNT_SEACLOUD = 0
 };
 
-#define SERVER_SEACLOUD         @"luckyclound.cc"
+#define SERVER_SEACLOUD         @"luckyclound"
 
-#define SERVER_SEACLOUD_NAME    @"LuckyCloud.cc"
+#define SERVER_SEACLOUD_NAME    @"luckycloud"
 #define SERVER_SHIB_NAME        NSLocalizedString(@"Single Sign On", @"Seafile")
 
 

@@ -209,7 +209,7 @@
         case ACCOUNT_SEACLOUD:
             serverTextField.enabled = false;
             _httpsSwitch.enabled = false;
-            serverTextField.text = SERVER_SEACLOUD;
+            serverTextField.text = @"storage.luckycloud.de";
             break;
         case ACCOUNT_OTHER:{
 #if DEBUG
