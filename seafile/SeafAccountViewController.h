@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "StartViewController.h"
 enum ACCOUNT_TYPE {
-    ACCOUNT_SEACLOUD = 0
+    ACCOUNT_SEACLOUD = 0,
+    ACCOUNT_SHIBBOLETH,
+    ACCOUNT_OTHER,
 };
 
 #define SERVER_SEACLOUD         @"luckyclound"
