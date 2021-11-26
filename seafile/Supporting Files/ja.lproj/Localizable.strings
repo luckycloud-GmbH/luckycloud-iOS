@@ -1,4 +1,4 @@
-﻿
+
 
 /* Seafile */
 "%@ can't verify the identity of the website \"%@\"" = "%1$@ can't verify the identity of the website \"%2$@\"";
@@ -86,6 +86,10 @@
 
 /* Seafile */
 "Add account" = "アカウント追加";
+
+"new account" = "new Account";
+
+"demo account" = "Demo Account";
 
 /* Seafile */
 "Add contact" = "コンタクト追加";
@@ -178,7 +182,7 @@
 "Choose directory" = "Choose directory";
 
 /* Seafile */
-"Choose a Seafile server" = "Choose a Seafile server";
+"Choose a Seafile server" = "Choose a LuckyCloud server";
 
 /* Seafile */
 "Choose an account to start" = "開始するアカウント選択して下さい";
