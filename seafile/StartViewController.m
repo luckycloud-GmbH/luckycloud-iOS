@@ -227,6 +227,19 @@
 }
 - (IBAction)addAccount:(id)sender
 {
+    SeafAccountViewController *controller = [[SeafAccountViewController alloc] initWithController:self connection:nil type:ACCOUNT_SEACLOUD demo:0];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    if (IsIpad()) {
+        navController.modalPresentationStyle = UIModalPresentationFormSheet;
+    } else {
+        navController.modalPresentationStyle = UIModalPresentationFullScreen;
+    }
+    dispatch_async(dispatch_get_main_queue(), ^ {
+        SeafAppDelegate *appdelegate = (SeafAppDelegate *)[[UIApplication sharedApplication] delegate];
+        [appdelegate.window.rootViewController presentViewController:navController animated:YES completion:nil];
+    });
+
+    /*
     NSString *title = NSLocalizedString(@"Choose a Seafile server", @"Seafile");
     NSString *privserver = NSLocalizedString(@"Other Server", @"Seafile");
     NSArray *arr = [NSArray arrayWithObjects:SERVER_SEACLOUD_NAME, nil];
@@ -245,7 +258,7 @@
     } else {
         alert.popoverPresentationController.sourceView = sender;
     }
-    [self presentViewController:alert animated:true completion:nil];
+    [self presentViewController:alert animated:true completion:nil];*/
 }
 
 - (IBAction)demoAccount:(id)sender
