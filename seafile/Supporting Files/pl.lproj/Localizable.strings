@@ -22,7 +22,7 @@
 "%ld photos remain" = "Pozostało %ld zdjęć";
 
 /* Seafile */
-"%ld files are uploaded to Seafile" = "%ld files are uploaded to Seafile";
+"%ld files are uploaded to Seafile" = "%ld files are uploaded to luckycloud";
 
 /* Seafile */
 "1 photo remain" = "Pozostało 1 zdjęcie";
@@ -1042,7 +1042,7 @@
 "Waiting to upload" = "%Waiting to upload";
 
 /* FolderView_iPad.storyboard, FolderView_iPhone.storyboard */
-"www.seafile.com" = "www.seafile.com";
+"www.seafile.com" = "luckycloud.de";
 
 /* Share to WeChat */
 "Share to WeChat" = "Share to WeChat";
@@ -1060,7 +1060,7 @@
 "Privacy Policy" = "Privacy Policy";
 
 /* Privacy Policy URL */
-"https://www.seafile.com/en/privacy_policy/" = "https://www.seafile.com/en/privacy_policy/";
+"https://www.seafile.com/en/privacy_policy/" = "https://luckycloud.de/de/data-and-privacy/";
 
 /*  TouchID is Enabled  */
 "FaceID(TouchID) is Enabled" = "FaceID(TouchID) is Enabled";
