@@ -14,9 +14,9 @@
 #import "SeafPreView.h"
 
 
-#define SEAFILE_SUITE_NAME @"group.com.seafile.seafilePro"
-#define APP_ID @"com.seafile.seafilePro"
-#define SEAF_FILE_PROVIDER @"com.seafile.seafilePro.fileprovider"
+#define SEAFILE_SUITE_NAME @"group.de.luckycloud.app" // @"group.com.seafile.seafilePro"
+#define APP_ID @"de.luckycloud.app" // @"com.seafile.seafilePro"
+#define SEAF_FILE_PROVIDER @"de.luckycloud.app.provider" // @"com.seafile.seafilePro.fileprovider"
 
 @protocol SeafBackgroundMonitor <NSObject>
 - (void)enterBackground;

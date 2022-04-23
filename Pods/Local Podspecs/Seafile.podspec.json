@@ -17,13 +17,13 @@
     "Seafile": "Pod/Resources/*"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "requires_arc": true,
   "frameworks": "AssetsLibrary",
   "dependencies": {
     "AFNetworking": [
-      "~> 3.2.0"
+      "~> 4.0.0"
     ],
     "OpenSSL-Universal": [
       "~> 1.0.1.p"
