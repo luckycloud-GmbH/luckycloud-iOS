@@ -389,34 +389,28 @@
         return;
     }
     
-    if ([server_url isEqual: @"https://storage.luckycloud.de"]) {
-        long errorCode = response.statusCode;
-        if (errorCode == HTTP_ERR_LOGIN_INCORRECT_PASSWORD) {
-            [SVProgressHUD dismiss];
-            NSString * otp = [response.allHeaderFields objectForKey:@"X-Seafile-OTP"];
-            if ([@"required" isEqualToString:otp]) {
-                [self twoStepVerification];
-            } else{
-                if([conn.address isEqualToString:@"https://storage.luckycloud.de"]){
-                    [self doLogin:@"https://sync.luckycloud.de"];
-                }else{
-                    [self alertWithTitle:NSLocalizedString(@"Wrong username or password", @"Seafile")];
-                    server_url = @"";
-                }
-            }
-        } else {
-            NSString *msg = NSLocalizedString(@"Failed to login", @"Seafile");
-            [SVProgressHUD showErrorWithStatus:[msg stringByAppendingFormat:@": %@", error.localizedDescription]];
-            
+    long errorCode = response.statusCode;
+    if (errorCode == HTTP_ERR_LOGIN_INCORRECT_PASSWORD) {
+        [SVProgressHUD dismiss];
+        NSString * otp = [response.allHeaderFields objectForKey:@"X-Seafile-OTP"];
+        if ([@"required" isEqualToString:otp]) {
+            [self twoStepVerification];
+        } else{
             if([conn.address isEqualToString:@"https://storage.luckycloud.de"]){
                 [self doLogin:@"https://sync.luckycloud.de"];
+            }else{
+                [self alertWithTitle:NSLocalizedString(@"Wrong username or password", @"Seafile")];
+                server_url = @"";
             }
         }
     } else {
         NSString *msg = NSLocalizedString(@"Failed to login", @"Seafile");
         [SVProgressHUD showErrorWithStatus:[msg stringByAppendingFormat:@": %@", error.localizedDescription]];
+        
+        if([conn.address isEqualToString:@"https://storage.luckycloud.de"]){
+            [self doLogin:@"https://sync.luckycloud.de"];
+        }
     }
-    
     
     
 
