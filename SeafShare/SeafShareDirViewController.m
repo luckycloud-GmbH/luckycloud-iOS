@@ -69,7 +69,7 @@
         UIToolbarAppearance *toolbarAppearance = [UIToolbarAppearance new];
         toolbarAppearance.backgroundColor = [UIColor systemBackgroundColor];
         self.navigationController.toolbar.standardAppearance = toolbarAppearance;
-        self.navigationController.toolbar.scrollEdgeAppearance = toolbarAppearance;
+//        self.navigationController.toolbar.scrollEdgeAppearance = toolbarAppearance;
         
 //        self.tableView.sectionHeaderTopPadding = 0;
     }

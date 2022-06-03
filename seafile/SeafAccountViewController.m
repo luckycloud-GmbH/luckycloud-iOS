@@ -25,6 +25,8 @@
 
 @interface SeafAccountViewController ()<SeafLoginDelegate, UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UITextField *serverTextField;
+@property (weak, nonatomic) IBOutlet UIView *urlSeparator;
+@property (weak, nonatomic) IBOutlet UITextField *urlTextField;
 @property (strong, nonatomic) IBOutlet UITextField *usernameTextField;
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (strong, nonatomic) IBOutlet UIButton *loginButton;
@@ -119,8 +121,12 @@
 
 - (IBAction)login:(id)sender
 {
-    server_url = @"https://storage.luckyclode.de";
-    [self doLogin:@"https://storage.luckycloud.de"];
+    if (self.demo == 0) {
+        server_url = @"https://storage.luckycloud.de";
+    } else {
+        server_url = _urlTextField.text;
+    }
+    [self doLogin:server_url];
 }
 
 -(void)doLogin:(NSString *)server_url{
@@ -182,9 +188,9 @@
     cancelItem.tintColor = [UIColor colorWithRed:101.0/255.0 green:191.0/255.0 blue:42.0/255.0 alpha:1.0];
     self.navigationItem.leftBarButtonItem = cancelItem;
 
-    if(self.demo == 1){
-        usernameTextField.text = @"demo@luckycloud.de";
-        passwordTextField.text = @"q1w2e3R4";
+    if(self.demo == 0){
+        _urlSeparator.hidden = YES;
+        _urlTextField.hidden = YES;
     }
     loginButton.layer.borderColor = [[UIColor whiteColor] CGColor];
     loginButton.layer.borderWidth = 0.0f;
@@ -383,32 +389,34 @@
         return;
     }
     
-    long errorCode = response.statusCode;
-    if (errorCode == HTTP_ERR_LOGIN_INCORRECT_PASSWORD) {
-        [SVProgressHUD dismiss];
-        NSString * otp = [response.allHeaderFields objectForKey:@"X-Seafile-OTP"];
-        if ([@"required" isEqualToString:otp]) {
-            [self twoStepVerification];
-        } else{
-            if([server_url containsString:@"storage"]){
-                server_url = @"https://sync.luckyclode.de";
+    if ([server_url isEqual: @"https://storage.luckycloud.de"]) {
+        long errorCode = response.statusCode;
+        if (errorCode == HTTP_ERR_LOGIN_INCORRECT_PASSWORD) {
+            [SVProgressHUD dismiss];
+            NSString * otp = [response.allHeaderFields objectForKey:@"X-Seafile-OTP"];
+            if ([@"required" isEqualToString:otp]) {
+                [self twoStepVerification];
+            } else{
+                if([conn.address isEqualToString:@"https://storage.luckycloud.de"]){
+                    [self doLogin:@"https://sync.luckycloud.de"];
+                }else{
+                    [self alertWithTitle:NSLocalizedString(@"Wrong username or password", @"Seafile")];
+                    server_url = @"";
+                }
+            }
+        } else {
+            NSString *msg = NSLocalizedString(@"Failed to login", @"Seafile");
+            [SVProgressHUD showErrorWithStatus:[msg stringByAppendingFormat:@": %@", error.localizedDescription]];
+            
+            if([conn.address isEqualToString:@"https://storage.luckycloud.de"]){
                 [self doLogin:@"https://sync.luckycloud.de"];
-            }else{
-                [self alertWithTitle:NSLocalizedString(@"Wrong username or password", @"Seafile")];
-                server_url = @"";
             }
         }
     } else {
         NSString *msg = NSLocalizedString(@"Failed to login", @"Seafile");
         [SVProgressHUD showErrorWithStatus:[msg stringByAppendingFormat:@": %@", error.localizedDescription]];
-        
-        if([server_url containsString:@"storage"]){
-            server_url = @"https://sync.luckyclode.de";
-            [self doLogin:@"https://sync.luckycloud.de"];
-
-        }
-
     }
+    
     
     
 

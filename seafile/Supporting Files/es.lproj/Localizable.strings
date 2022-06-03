@@ -1,4 +1,4 @@
-﻿
+
 
 /* Seafile */
 "%@ can't verify the identity of the website \"%@\"" = "%1$@ no puede verificar la identidad de la web \"%2$@\"";
@@ -88,7 +88,7 @@
 "Add account" = "Añadir cuenta";
 "new account" = "new Account";
 
-"demo account" = "Demo Account";
+"demo account" = "Inicio de sesión empresarial";
 
 /* Seafile */
 "Add contact" = "Añadir contacto";

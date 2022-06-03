@@ -1,4 +1,4 @@
-﻿
+
 
 /* Seafile */
 "%@ can't verify the identity of the website \"%@\"" = "%1$@님이 \"%2$@\" 웹사이트 신원을 검증할 수 없습니다.";
@@ -88,7 +88,7 @@
 "Add account" = "계정 추가";
 "new account" = "new Account";
 
-"demo account" = "Demo Account";
+"demo account" = "기업 로그인";
 
 /* Seafile */
 "Add contact" = "연락처 추가";
