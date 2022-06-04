@@ -116,12 +116,12 @@
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
         if ([managedObjectContext hasChanges]) {
-//                [managedObjectContext performBlockAndWait:^{
-//                    BOOL ret = [managedObjectContext save:&error];
-//                    if (!ret) {
-//                        Warning("Unresolved error %@", error);
-//                    }
-//                }];
+            [managedObjectContext performBlockAndWait:^{
+                BOOL ret = [managedObjectContext save:&error];
+                if (!ret) {
+                    Warning("Unresolved error %@", error);
+                }
+            }];
         }
     }
 }
@@ -220,7 +220,7 @@
         obj.value = value;
     }
 
-    [self saveContext];
+//    [self saveContext];
     return YES;
 }
 
@@ -232,7 +232,7 @@
         [context performBlockAndWait:^{
             [context deleteObject:obj];
         }];
-        [self saveContext];
+//        [self saveContext];
     }
 }
 
@@ -295,7 +295,7 @@
         }];
     }
     _fetchedResultsController = nil;
-    [self saveContext];
+//    [self saveContext];
 }
 
 - (void)deleteAllObjectsForEntity:(NSString *)entityDescription

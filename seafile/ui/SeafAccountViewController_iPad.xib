@@ -162,8 +162,8 @@
                                 <action selector="readPrivacyPolocy:" destination="-1" eventType="touchUpInside" id="HC3-NN-c2h"/>
                             </connections>
                         </button>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="https://" placeholder="Server URL" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="uEY-Ag-ltC">
-                            <rect key="frame" x="0.0" y="132.5" width="370" height="44"/>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Server, like https://seafile.cc" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="uEY-Ag-ltC">
+                            <rect key="frame" x="50" y="132.5" width="320" height="44"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="44" id="7kl-2L-bFU"/>
                             </constraints>
@@ -173,6 +173,16 @@
                                 <outlet property="delegate" destination="-1" id="R9D-u5-k2h"/>
                             </connections>
                         </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fie-MY-Qg7">
+                            <rect key="frame" x="0.0" y="132.5" width="50" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="XRp-a9-tqX"/>
+                                <constraint firstAttribute="height" constant="44" id="lix-xM-NUI"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -184,19 +194,21 @@
                         <constraint firstItem="9" firstAttribute="top" secondItem="sS8-66-Hle" secondAttribute="bottom" constant="44.5" id="9PR-Um-wYg"/>
                         <constraint firstItem="sS8-66-Hle" firstAttribute="top" secondItem="2K6-1h-EqF" secondAttribute="bottom" id="Ay9-W1-EUH"/>
                         <constraint firstItem="Vpc-8f-gSf" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="C33-ZA-LEy"/>
+                        <constraint firstItem="uEY-Ag-ltC" firstAttribute="leading" secondItem="fie-MY-Qg7" secondAttribute="trailing" id="Fh4-zv-E4N"/>
                         <constraint firstItem="7" firstAttribute="leading" secondItem="Vpc-8f-gSf" secondAttribute="trailing" id="HZg-3e-4wG"/>
                         <constraint firstAttribute="width" constant="370" id="HeV-x1-MjE"/>
                         <constraint firstItem="ggd-Li-Grh" firstAttribute="leading" secondItem="4" secondAttribute="leading" constant="30" id="Jqo-Fb-n78"/>
+                        <constraint firstItem="fie-MY-Qg7" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="LAW-bp-Hj4"/>
                         <constraint firstAttribute="height" constant="437" id="Mho-F4-8eX"/>
                         <constraint firstItem="oQW-c9-2rM" firstAttribute="top" secondItem="ggd-Li-Grh" secondAttribute="bottom" constant="12" id="PjI-8y-jVZ"/>
                         <constraint firstAttribute="trailing" secondItem="uEY-Ag-ltC" secondAttribute="trailing" id="Q6O-tl-shZ"/>
                         <constraint firstItem="sS8-66-Hle" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="R2k-r0-uqq"/>
+                        <constraint firstItem="DVR-Fg-Wst" firstAttribute="top" secondItem="fie-MY-Qg7" secondAttribute="bottom" id="TBl-uc-1Ce"/>
                         <constraint firstItem="1qz-sJ-qg2" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="TE6-mR-k5Q"/>
                         <constraint firstItem="jXE-I6-QKZ" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="Uk0-QZ-bxi"/>
                         <constraint firstItem="7" firstAttribute="centerY" secondItem="Vpc-8f-gSf" secondAttribute="centerY" id="V4F-fU-qBk"/>
                         <constraint firstAttribute="trailing" secondItem="jXE-I6-QKZ" secondAttribute="trailing" id="VdF-CB-Suy"/>
                         <constraint firstAttribute="trailing" secondItem="9" secondAttribute="trailing" id="WNZ-U4-Mkd"/>
-                        <constraint firstItem="uEY-Ag-ltC" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="Yy1-2q-qJm"/>
                         <constraint firstItem="8" firstAttribute="top" secondItem="jXE-I6-QKZ" secondAttribute="bottom" id="asY-Jv-qo7"/>
                         <constraint firstItem="2K6-1h-EqF" firstAttribute="top" secondItem="7" secondAttribute="bottom" id="cdp-EB-ubc"/>
                         <constraint firstAttribute="trailing" secondItem="7" secondAttribute="trailing" id="dEn-IP-HQI"/>

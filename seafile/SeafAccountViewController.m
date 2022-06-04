@@ -124,8 +124,9 @@
     if (self.demo == 0) {
         server_url = @"https://storage.luckycloud.de";
     } else {
-        server_url = _urlTextField.text;
+        server_url = [NSString stringWithFormat:@"%@%@", @"https://", _urlTextField.text];
     }
+    NSLog(@"####### %@", server_url);
     [self doLogin:server_url];
 }
 

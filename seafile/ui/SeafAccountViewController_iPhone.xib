@@ -149,12 +149,10 @@
                                 <action selector="readPrivacyPolocy:" destination="-1" eventType="touchUpInside" id="W5t-lg-l2r"/>
                             </connections>
                         </button>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="https://" placeholder="Server URL" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Y8T-ag-686">
-                            <rect key="frame" x="0.0" y="133" width="315" height="44"/>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Server, like https://seafile.cc" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Y8T-ag-686">
+                            <rect key="frame" x="50" y="133" width="265" height="44"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="44" id="2Dr-yJ-JK0"/>
-                                <constraint firstAttribute="width" constant="315" id="NiP-xn-I1l"/>
-                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="315" id="t3e-DY-zzO"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next" textContentType="username"/>
@@ -169,6 +167,16 @@
                                 <constraint firstAttribute="height" constant="0.5" id="opC-Wn-C2d"/>
                             </constraints>
                         </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JW2-jA-erL">
+                            <rect key="frame" x="0.0" y="133" width="50" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="F4Q-7R-NtC"/>
+                                <constraint firstAttribute="height" constant="44" id="Vo9-y3-tgk"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -186,18 +194,21 @@
                         <constraint firstItem="D34-aF-ZEz" firstAttribute="top" secondItem="8" secondAttribute="bottom" id="BXd-pv-vj3"/>
                         <constraint firstItem="llZ-HJ-kGK" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="CQL-O6-aup"/>
                         <constraint firstItem="8" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="EIJ-Ds-gAs"/>
+                        <constraint firstItem="IRM-zl-Myr" firstAttribute="top" secondItem="JW2-jA-erL" secondAttribute="bottom" id="ESj-UB-Hjc"/>
                         <constraint firstAttribute="trailing" secondItem="D34-aF-ZEz" secondAttribute="trailing" id="ILc-6d-a8d"/>
                         <constraint firstItem="rNK-Z6-77b" firstAttribute="top" secondItem="A7P-JV-rI1" secondAttribute="bottom" id="LsD-bd-MHJ"/>
                         <constraint firstItem="Y8T-ag-686" firstAttribute="top" secondItem="rNK-Z6-77b" secondAttribute="bottom" id="M0x-XM-Dca"/>
                         <constraint firstItem="9WX-6W-Erd" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="NuB-YO-rnq"/>
+                        <constraint firstItem="Y8T-ag-686" firstAttribute="leading" secondItem="JW2-jA-erL" secondAttribute="trailing" id="R9s-sy-FxX"/>
                         <constraint firstItem="A7P-JV-rI1" firstAttribute="top" secondItem="9WX-6W-Erd" secondAttribute="bottom" id="S9r-1K-bnr"/>
                         <constraint firstItem="IRM-zl-Myr" firstAttribute="top" secondItem="Y8T-ag-686" secondAttribute="bottom" id="Wzn-2T-dr7"/>
                         <constraint firstItem="wGA-Kv-uHI" firstAttribute="centerY" secondItem="A7P-JV-rI1" secondAttribute="centerY" id="aGE-69-uRa"/>
+                        <constraint firstItem="JW2-jA-erL" firstAttribute="top" secondItem="rNK-Z6-77b" secondAttribute="bottom" id="aRL-pW-P23"/>
                         <constraint firstAttribute="trailing" secondItem="wGA-Kv-uHI" secondAttribute="trailing" constant="8" id="bFd-VL-nq9"/>
                         <constraint firstItem="B8O-lA-Kxs" firstAttribute="top" secondItem="ggd-Li-Grh" secondAttribute="bottom" constant="12" id="cHM-dY-MBD"/>
                         <constraint firstItem="9WX-6W-Erd" firstAttribute="top" secondItem="7" secondAttribute="bottom" id="dUb-5Y-B0L"/>
                         <constraint firstAttribute="trailing" secondItem="9WX-6W-Erd" secondAttribute="trailing" id="er5-Ik-zRv"/>
-                        <constraint firstItem="Y8T-ag-686" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="fC9-ae-KER"/>
+                        <constraint firstItem="JW2-jA-erL" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="f7N-BV-rMJ"/>
                         <constraint firstAttribute="trailing" secondItem="QqA-Ar-X3g" secondAttribute="trailing" id="g0w-CD-Q8u"/>
                         <constraint firstItem="IRM-zl-Myr" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="gLw-8l-Tw6"/>
                         <constraint firstAttribute="trailing" secondItem="7" secondAttribute="trailing" id="gME-ok-eVj"/>
