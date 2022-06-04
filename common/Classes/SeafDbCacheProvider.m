@@ -52,6 +52,7 @@
     }
     NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"seafile" withExtension:@"momd"];
     __managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
+
     return __managedObjectModel;
 }
 
@@ -115,12 +116,12 @@
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
         if ([managedObjectContext hasChanges]) {
-            [managedObjectContext performBlockAndWait:^{
-                BOOL ret = [managedObjectContext save:&error];
-                if (!ret) {
-                    Warning("Unresolved error %@", error);
-                }
-            }];
+//                [managedObjectContext performBlockAndWait:^{
+//                    BOOL ret = [managedObjectContext save:&error];
+//                    if (!ret) {
+//                        Warning("Unresolved error %@", error);
+//                    }
+//                }];
         }
     }
 }
