@@ -16,6 +16,7 @@
                 <outlet property="prefixLabel" destination="llZ-HJ-kGK" id="uNy-U7-ZTp"/>
                 <outlet property="privacyPolicyButton" destination="B8O-lA-Kxs" id="ecT-JF-Ych"/>
                 <outlet property="serverTextField" destination="7" id="36"/>
+                <outlet property="urlPrefixLabel" destination="JW2-jA-erL" id="JoM-Bk-b2S"/>
                 <outlet property="urlSeparator" destination="IRM-zl-Myr" id="V1i-fd-R7v"/>
                 <outlet property="urlTextField" destination="Y8T-ag-686" id="wmM-qH-XXZ"/>
                 <outlet property="usernameTextField" destination="9" id="39"/>

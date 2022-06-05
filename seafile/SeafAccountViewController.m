@@ -27,6 +27,8 @@
 @property (strong, nonatomic) IBOutlet UITextField *serverTextField;
 @property (weak, nonatomic) IBOutlet UIView *urlSeparator;
 @property (weak, nonatomic) IBOutlet UITextField *urlTextField;
+@property (weak, nonatomic) IBOutlet UILabel *urlPrefixLabel;
+
 @property (strong, nonatomic) IBOutlet UITextField *usernameTextField;
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (strong, nonatomic) IBOutlet UIButton *loginButton;
@@ -190,6 +192,7 @@
     self.navigationItem.leftBarButtonItem = cancelItem;
 
     if(self.demo == 0){
+        _urlPrefixLabel.hidden = YES;
         _urlSeparator.hidden = YES;
         _urlTextField.hidden = YES;
     }
