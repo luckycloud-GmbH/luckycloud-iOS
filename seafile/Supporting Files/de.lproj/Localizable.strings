@@ -836,7 +836,7 @@
 "Server must not be empty" = "Geben Sie den Server an";
 
 /* Seafile */
-"Server, like https://seafile.cc" = "Server, z.B. https://seafile.cc";
+"Server, like https://seafile.cc" = "cloud.IhreDomain.de";
 
 /* Seafile */
 "Settings" = "Einstellungen";
