@@ -127,6 +127,9 @@
 "Are you sure to save all photos to album?" = "Are you sure to save all photos to album";
 
 /* Seafile */
+"Auto Lock" = "Verrouillage automatique";
+
+/* Seafile */
 "Auto Upload" = "Envoi automatique";
 
 /* Auto cleay library password */

@@ -1,4 +1,4 @@
-﻿
+
 
 /* Seafile */
 "%@ can't verify the identity of the website \"%@\"" = "%1$@ kann die Identität der Website „%2$@“ nicht überprüfen";
@@ -126,6 +126,9 @@
 
 /* Seafile */
 "Are you sure to save all photos to album?" = "Are you sure to save all photos to album";
+
+/* Seafile */
+"Auto Lock" = "Automatisches Sperren";
 
 /* Seafile */
 "Auto Upload" = "Automatisches Hochladen";

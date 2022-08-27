@@ -130,6 +130,7 @@
 		B1281476275BC6C6005EF4D5 /* new_star.png in Resources */ = {isa = PBXBuildFile; fileRef = B128146B275BC6C6005EF4D5 /* new_star.png */; };
 		B1281477275BC6C6005EF4D5 /* new_star.png in Resources */ = {isa = PBXBuildFile; fileRef = B128146B275BC6C6005EF4D5 /* new_star.png */; };
 		C70DE2592791842100CDD2A7 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70DE2582791842100CDD2A7 /* CloudKit.framework */; };
+		C7792E9728B75DD70005C014 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7792E9628B75DD70005C014 /* libAFNetworking.a */; };
 		D9BE2094AD9B16A02584A3C2 /* libPods-seafileApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D78ABE0B0673E422054A82 /* libPods-seafileApp.a */; };
 		DE940CA1A2BA2DD43C20EA2C /* libPods-SeafFileProviderUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EFA735E2957F22E301E23A /* libPods-SeafFileProviderUI.a */; };
 		E0FED1E93CBE02FB9B335ADB /* libPods-SeafFileProvider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3583928919818364B46034EA /* libPods-SeafFileProvider.a */; };
@@ -618,7 +619,6 @@
 		F5DF763424FE83DC004CAB1E /* export2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DF74BE24FE83DB004CAB1E /* export2@2x.png */; };
 		F5DF763524FE83DC004CAB1E /* export2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DF74BE24FE83DB004CAB1E /* export2@2x.png */; };
 		F5DF76D724FE85C1004CAB1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF76D624FE85C1004CAB1E /* main.m */; };
-		F5DF76D924FE8728004CAB1E /* seafile-appstore-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5DF76D824FE8728004CAB1E /* seafile-appstore-Info.plist */; };
 		F5E621EF20D16666001EDA7A /* NSError+SeafFileProvierError.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E621EE20D16666001EDA7A /* NSError+SeafFileProvierError.m */; };
 		F5EAAE93218419120068BFE3 /* SeafPrivacyPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EAAE92218419120068BFE3 /* SeafPrivacyPolicyViewController.m */; };
 /* End PBXBuildFile section */
@@ -816,6 +816,7 @@
 		B3D78ABE0B0673E422054A82 /* libPods-seafileApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seafileApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C7801D49498095B24DB644 /* Pods-seafileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seafileApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-seafileApp/Pods-seafileApp.release.xcconfig"; sourceTree = "<group>"; };
 		C70DE2582791842100CDD2A7 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		C7792E9628B75DD70005C014 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDEFA043CD6CF7650726549 /* Pods-seafileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seafileApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seafileApp/Pods-seafileApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EE1E1FA7502D3F04292B11CB /* Pods-SeafAction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeafAction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeafAction/Pods-SeafAction.debug.xcconfig"; sourceTree = "<group>"; };
 		F515E4B421AC3DBB00A62F64 /* SeafActionsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeafActionsManager.h; sourceTree = "<group>"; };
@@ -1027,6 +1028,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7792E9728B75DD70005C014 /* libAFNetworking.a in Frameworks */,
 				1234A1AA0526579332B5E703 /* libPods-SeafShare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1220,6 +1222,7 @@
 		57DB827015A833FA00097CEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7792E9628B75DD70005C014 /* libAFNetworking.a */,
 				C70DE2582791842100CDD2A7 /* CloudKit.framework */,
 				F527AF3C22F881480057B59E /* WebKit.framework */,
 				583F23C11E3E6EAC00F9FE07 /* Contacts.framework */,
@@ -1573,7 +1576,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Seaf;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = Seafile;
 				TargetAttributes = {
 					571D8CA91677881400F1A22C = {
@@ -1649,10 +1652,9 @@
 			};
 			buildConfigurationList = 57DB826715A833F900097CEC /* Build configuration list for PBXProject "seafilePro" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				"zh-Hans",
 				Base,
@@ -1764,7 +1766,6 @@
 				F521119921E1C12000D93BB8 /* SeafAccountViewController_iPhone.xib in Resources */,
 				F5DF755224FE83DB004CAB1E /* close2.png in Resources */,
 				F52111D821E1C14D00D93BB8 /* SeafMkLibAlertController_iPhone.xib in Resources */,
-				F5DF76D924FE8728004CAB1E /* seafile-appstore-Info.plist in Resources */,
 				F5DF751624FE83DB004CAB1E /* download_finished.png in Resources */,
 				F558968A22632A9C0084C642 /* LaunchScreeniPad.storyboard in Resources */,
 				F5DF75C424FE83DB004CAB1E /* arrowright@2x.png in Resources */,
@@ -2717,7 +2718,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6L778TJLD2;
 				ENABLE_BITCODE = YES;
@@ -2727,7 +2728,7 @@
 				INFOPLIST_FILE = "seafile/Supporting Files/seafile-appstore-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 2.9.17;
 				PRODUCT_BUNDLE_IDENTIFIER = de.luckycloud.app;
 				PRODUCT_NAME = SeafilePro;
 				PROVISIONING_PROFILE = "";
@@ -2752,7 +2753,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6L778TJLD2;
 				ENABLE_BITCODE = YES;
@@ -2762,7 +2763,7 @@
 				INFOPLIST_FILE = "seafile/Supporting Files/seafile-appstore-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 2.9.17;
 				PRODUCT_BUNDLE_IDENTIFIER = de.luckycloud.app;
 				PRODUCT_NAME = SeafilePro;
 				PROVISIONING_PROFILE = "";
@@ -3017,12 +3018,15 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -3073,12 +3077,15 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

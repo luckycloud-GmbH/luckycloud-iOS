@@ -314,9 +314,47 @@
     [self performSelectorInBackground:@selector(delayedInit) withObject:nil];
 
     [UIApplication sharedApplication].delegate.window.backgroundColor = [UIColor whiteColor];
-
+    [self registerforDeviceLockNotif];
     return YES;
 }
+// ... register LOCK/UNLOCK
+static void displayStatusChanged(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
+{
+    // the "com.apple.springboard.lockcomplete" notification will always come after the "com.apple.springboard.lockstate" notification
+    CFStringRef nameCFString = (CFStringRef)name;
+    NSString *lockState = (NSString*)CFBridgingRelease(nameCFString);
+    NSLog(@"Darwin notification NAME = %@",name);
+    
+    if([lockState isEqualToString:@"com.apple.springboard.lockcomplete"])
+    {
+        NSLog(@"DEVICE LOCKED");
+        // ... change key
+        [SeafStorage.sharedObject setObject:@"TRUE" forKey:@"LOCK_STATUS"];
+    }
+    else
+    {
+        NSLog(@"LOCK STATUS CHANGED");
+    }
+}
+
+-(void)registerforDeviceLockNotif
+{
+    //Screen lock notifications
+    CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), //center
+                                    NULL, // observer
+                                    displayStatusChanged, // callback
+                                    CFSTR("com.apple.springboard.lockcomplete"), // event name
+                                    NULL, // object
+                                    CFNotificationSuspensionBehaviorDeliverImmediately);
+    
+    CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), //center
+                                    NULL, // observer
+                                    displayStatusChanged, // callback
+                                    CFSTR("com.apple.springboard.lockstate"), // event name
+                                    NULL, // object
+                                    CFNotificationSuspensionBehaviorDeliverImmediately);
+}// ... LOCK/UNLOCK
+
 
 - (void)enterBackground
 {
@@ -373,6 +411,7 @@
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
+    Debug("✅ 10 ✅ applicationWillResignActive");
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
@@ -383,12 +422,13 @@
     for (id <SeafBackgroundMonitor> monitor in _monitors) {
         [monitor enterBackground];
     }
-    if (self.window.rootViewController != self.startNav && SeafGlobal.sharedObject.connection.touchIdEnabled) {
-        Debug("hiding contents when enter background");
-        [self exitAccount];
-        self.autoBackToDefaultAccount = true;
-    } else
-        self.autoBackToDefaultAccount = false;
+//    if (self.window.rootViewController != self.startNav && SeafGlobal.sharedObject.connection.touchIdEnabled) {
+//        Debug("hiding contents when enter background");
+//        // ... check settings, so that
+//        [self exitAccount];
+//        self.autoBackToDefaultAccount = true;
+//    } else
+//        self.autoBackToDefaultAccount = false;
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -415,6 +455,42 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     [application cancelAllLocalNotifications];
     self.background = false;
+    
+    // ... get lockstatus
+    NSString *lockStatus = [SeafStorage.sharedObject objectForKey:@"LOCK_STATUS"];
+    NSLog(@"⚠️⚠️ SeafAppDelegate.m | applicationDidBecomeActive | LOCKSTATUS | %@", lockStatus);
+    
+
+    // ...
+    if (self.window.rootViewController != self.startNav && SeafGlobal.sharedObject.connection.touchIdEnabled) {
+        Debug("hiding contents when enter background");
+        // ... check settings
+        if([lockStatus isEqual: @"TRUE"]) {
+            
+            [SeafStorage.sharedObject setObject:@"FALSE" forKey:@"LOCK_STATUS"];
+            if (SeafGlobal.sharedObject.connection.deviceLockEnabled) {
+                [self exitAccount];
+                self.autoBackToDefaultAccount = true;
+            } else {
+                self.autoBackToDefaultAccount = false;
+            }
+        } else {
+            if (SeafGlobal.sharedObject.connection.appMinimizeEnabled) {
+                [self exitAccount];
+                self.autoBackToDefaultAccount = true;
+            } else {
+                self.autoBackToDefaultAccount = false;
+            }
+
+        }
+        
+//        [self exitAccount];
+//        self.autoBackToDefaultAccount = true;
+        
+    } else
+        self.autoBackToDefaultAccount = false;
+
+    // ...
     if (self.autoBackToDefaultAccount) {
         self.autoBackToDefaultAccount = false;
         Debug("Verify TouchId and go back to the last account.");

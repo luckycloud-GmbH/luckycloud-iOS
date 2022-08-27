@@ -30,6 +30,7 @@
 
 enum {
     SECTION_ACCOUNT = 0,
+    SECTION_AUTOLOCK,
     SECTION_CAMERA,
     SECTION_UPDOWNLOAD,
     SECTION_CACHE,
@@ -86,6 +87,8 @@ enum {
 @property (strong, nonatomic) IBOutlet UITableViewCell *wipeCacheCell;
 @property (weak, nonatomic) IBOutlet UITableViewCell *uploadingCell;
 @property (weak, nonatomic) IBOutlet UITableViewCell *downloadingCell;
+@property (weak, nonatomic) IBOutlet UITableViewCell *appMinimizeCell;
+@property (weak, nonatomic) IBOutlet UITableViewCell *deviceLockCell;
 
 @property (strong, nonatomic) IBOutlet UILabel *logOutLabel;
 @property (strong, nonatomic) IBOutlet UILabel *autoCameraUploadLabel;
@@ -96,6 +99,8 @@ enum {
 @property (strong, nonatomic) IBOutlet UILabel *localDecryLabel;
 @property (strong, nonatomic) IBOutlet UILabel *enableTouchIDLabel;
 @property (weak, nonatomic) IBOutlet UILabel *privacyPolicyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *appMinimizeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *deviceLockLabel;
 
 @property (strong, nonatomic) IBOutlet UISwitch *autoSyncSwitch;
 @property (strong, nonatomic) IBOutlet UISwitch *wifiOnlySwitch;
@@ -104,6 +109,9 @@ enum {
 @property (strong, nonatomic) IBOutlet UISwitch *autoClearPasswdSwitch;
 @property (strong, nonatomic) IBOutlet UISwitch *localDecrySwitch;
 @property (strong, nonatomic) IBOutlet UISwitch *enableTouchIDSwitch;
+@property (weak, nonatomic) IBOutlet UIButton *enableTouchIDButton;
+@property (weak, nonatomic) IBOutlet UISwitch *appMinimizeSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *deviceLockSwitch;
 
 @property (strong, nonatomic) CLLocationManager *locationManager;
 
@@ -161,6 +169,19 @@ enum {
 {
     _connection.wifiOnly = wifiOnly;
 }
+
+/*
+- (void)setAppMinimizeEnabled:(BOOL)appMinimizeEnabled
+{
+    _connection.appMinimizeEnabled = appMinimizeEnabled;
+}
+
+- (void)setDeviceLockEnabled:(BOOL)deviceLockEnabled
+{
+    _connection.deviceLockEnabled = deviceLockEnabled;
+}
+*/
+
 
 - (void)setBackgroundSync:(BOOL)backgroundSync
 {
@@ -232,28 +253,31 @@ enum {
     _connection.localDecryptionEnabled = _localDecrySwitch.on;
 }
 
-- (IBAction)enableTouchIDSwtichFlip:(id)sender
-{
-    if (_enableTouchIDSwitch.on) {
-        NSError *error = nil;
-        LAContext *context = [[LAContext alloc] init];
-        if (![context canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&error]) {
-            Warning("TouchID unavailable: %@", error);
-            if (@available(iOS 11.0, *)) {
-                if (context.biometryType == LABiometryTypeFaceID) {
-                    [self alertWithTitle:STR_19];
-                } else {
-                    [self alertWithTitle:STR_15];
+- (IBAction)enableTouchIDButtonTapped:(id)sender {
+    [self checkTouchId:^(bool success) {
+        if (success) {
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.), dispatch_get_main_queue(), ^{
+                if (_enableTouchIDSwitch.on) {
+                    [_enableTouchIDSwitch setOn:NO];
+                }else{
+                    [_enableTouchIDSwitch setOn:YES];
                 }
-            } else {
-                [self alertWithTitle:STR_15];
-            }
-            _enableTouchIDSwitch.on = false;
-            return;
+                _connection.touchIdEnabled = _enableTouchIDSwitch.on;
+            });
         }
-    }
-    _connection.touchIdEnabled = _enableTouchIDSwitch.on;
+    }];
 }
+
+- (IBAction)appMinimizeSwitchFlip:(id)sender
+{
+    _connection.appMinimizeEnabled = _appMinimizeSwitch.on;
+}
+
+- (IBAction)deviceLockSwitchFlip:(id)sender
+{
+    _connection.deviceLockEnabled = _deviceLockSwitch.on;
+}
+
 
 - (void)backgroundSyncSwitchFlip:(id)sender
 {
@@ -406,6 +430,9 @@ enum {
 
     _autoClearPasswdSwitch.on = _connection.autoClearRepoPasswd;
     _localDecrySwitch.on = _connection.localDecryptionEnabled;
+    
+    _appMinimizeSwitch.on = _connection.appMinimizeEnabled;
+    _deviceLockSwitch.on = _connection.deviceLockEnabled;
     _serverCell.detailTextLabel.text = [_connection.address trimUrl];
 
     [self updateSyncInfo];
@@ -555,6 +582,7 @@ enum {
 {
     NSString *sectionNames[] = {
         NSLocalizedString(@"Account Info", @"Seafile"),
+        NSLocalizedString(@"Auto Lock", @"Seafile"),
         NSLocalizedString(@"Camera Upload", @"Seafile"),
         NSLocalizedString(@"Upload & Download", @"Seafile"),
         NSLocalizedString(@"Cache", @"Seafile"),

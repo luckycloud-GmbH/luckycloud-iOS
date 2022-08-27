@@ -333,6 +333,29 @@ static AFHTTPRequestSerializer <AFURLRequestSerialization> * _requestSerializer;
     [self setAttribute:[NSNumber numberWithBool:localDecryptionEnabled] forKey:@"localDecryption"];
 }
 
+- (BOOL)appMinimizeEnabled
+{
+    return [[self getAttribute:@"appMinimize"] booleanValue:false];
+}
+
+- (void)setAppMinimizeEnabled:(BOOL)appMinimizeEnabled
+{
+    if (self.appMinimizeEnabled == appMinimizeEnabled) return;
+    [self setAttribute:[NSNumber numberWithBool:appMinimizeEnabled] forKey:@"appMinimize"];
+}
+
+- (BOOL)deviceLockEnabled
+{
+    return [[self getAttribute:@"deviceLock"] booleanValue:false];
+}
+
+- (void)setDeviceLockEnabled:(BOOL)deviceLockEnabled
+{
+    if (self.deviceLockEnabled == deviceLockEnabled) return;
+    [self setAttribute:[NSNumber numberWithBool:deviceLockEnabled] forKey:@"deviceLock"];
+}
+
+
 - (BOOL)touchIdEnabled
 {
     return [[self getAttribute:@"touchIdEnabled"] booleanValue:false];

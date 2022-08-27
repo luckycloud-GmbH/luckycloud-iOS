@@ -90,6 +90,8 @@ BOOL SeafServerTrustIsValid(SecTrustRef _Nonnull serverTrust);
 
 @property (readwrite, nonatomic) BOOL autoClearRepoPasswd;
 @property (readwrite, nonatomic) BOOL localDecryptionEnabled;
+@property (readwrite, nonatomic) BOOL appMinimizeEnabled;
+@property (readwrite, nonatomic) BOOL deviceLockEnabled;
 @property (readwrite, nonatomic) BOOL touchIdEnabled;
 @property (readonly) NSURLCredential *_Nullable clientCred;
 

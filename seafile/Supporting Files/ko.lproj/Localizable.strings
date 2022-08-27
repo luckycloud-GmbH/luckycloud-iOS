@@ -1,4 +1,4 @@
-﻿
+
 
 /* Seafile */
 "%@ can't verify the identity of the website \"%@\"" = "%1$@님이 \"%2$@\" 웹사이트 신원을 검증할 수 없습니다.";
@@ -125,6 +125,9 @@
 
 /* Seafile */
 "Are you sure to save all photos to album?" = "Are you sure to save all photos to album";
+
+/* Seafile */
+"Auto Lock" = "자동 잠금";
 
 /* Seafile */
 "Auto Upload" = "자동 업로드";
