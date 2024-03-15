@@ -88,7 +88,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/haiwen/SWTableViewCell.git
 
 SPEC CHECKSUMS:
-  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   APLRUCache: 905a940dbeaf1c2c1ddbcabcdf223077af45cbf1
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
@@ -104,4 +104,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 2e698c95a8e1188c9def95b26b7e18c14594d474
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.14.3

@@ -2519,8 +2519,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -3109,15 +3109,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0765C24F7C0F0A7231D3BF150E5E9F8C /* Debug */ = {
+		033BFFD7B7B0A58663C5CAE6DE16F4CA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A110294226FA7251C65ACA271490A819 /* MWPhotoBrowser.debug.xcconfig */;
+			baseConfigurationReference = 2CB024CC2CF25F448123726732AE11D0 /* Seafile.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPhotoBrowser";
-				IBSC_MODULE = MWPhotoBrowser;
-				INFOPLIST_FILE = "Target Support Files/MWPhotoBrowser/ResourceBundle-MWPhotoBrowser-MWPhotoBrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MWPhotoBrowser;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Seafile";
+				IBSC_MODULE = Seafile;
+				INFOPLIST_FILE = "Target Support Files/Seafile/ResourceBundle-Seafile-Seafile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Seafile;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3293,22 +3294,6 @@
 			};
 			name = Release;
 		};
-		22AF284F4AE961E7EE1115C03D85C323 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 455FFC7C395528172A5F566619FB20C5 /* MWPhotoBrowser.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPhotoBrowser";
-				IBSC_MODULE = MWPhotoBrowser;
-				INFOPLIST_FILE = "Target Support Files/MWPhotoBrowser/ResourceBundle-MWPhotoBrowser-MWPhotoBrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MWPhotoBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		22F08749E56653F04A90A4CC0381C363 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F54F48365F684F7C162402DC85FEA46 /* SVPullToRefresh.debug.xcconfig */;
@@ -3396,6 +3381,23 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		2DEFA6503DB8CC6E45311DC228590FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E781A8CBAE7CD7668E091DA8A482E0 /* Seafile.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Seafile";
+				IBSC_MODULE = Seafile;
+				INFOPLIST_FILE = "Target Support Files/Seafile/ResourceBundle-Seafile-Seafile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Seafile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		3296DD109119B3DDEB05F49244E44683 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3549,6 +3551,23 @@
 			};
 			name = Debug;
 		};
+		4E317B3204751AB81CE092A30ED3918A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D33D2697E876F38292E5253FF92F22 /* QBImagePickerController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBImagePickerController";
+				IBSC_MODULE = QBImagePickerController;
+				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QBImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		599B8627F3F0B446C961346EA8F56126 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6431760F88ED068DA5C8CA62413B6A87 /* Pods-seafileApp.release.xcconfig */;
@@ -3617,6 +3636,23 @@
 			};
 			name = Release;
 		};
+		6784D8C29FF4705247C7B71F5D0B0572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455FFC7C395528172A5F566619FB20C5 /* MWPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPhotoBrowser";
+				IBSC_MODULE = MWPhotoBrowser;
+				INFOPLIST_FILE = "Target Support Files/MWPhotoBrowser/ResourceBundle-MWPhotoBrowser-MWPhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MWPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		67F078B4CBBD6F8AB8D6FD38EB765102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2E781A8CBAE7CD7668E091DA8A482E0 /* Seafile.release.xcconfig */;
@@ -3678,22 +3714,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		82624B5FF3A1AA0EF99678BCDAD56F13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CB024CC2CF25F448123726732AE11D0 /* Seafile.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Seafile";
-				IBSC_MODULE = Seafile;
-				INFOPLIST_FILE = "Target Support Files/Seafile/ResourceBundle-Seafile-Seafile-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = Seafile;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -3764,6 +3784,23 @@
 			};
 			name = Debug;
 		};
+		8A85E5D609E861299B149119C2A4D7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A110294226FA7251C65ACA271490A819 /* MWPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPhotoBrowser";
+				IBSC_MODULE = MWPhotoBrowser;
+				INFOPLIST_FILE = "Target Support Files/MWPhotoBrowser/ResourceBundle-MWPhotoBrowser-MWPhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MWPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		8BFB40821FE9A382E1D3BF508BF72AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 534F50D76464E9C2859D66561094A0A2 /* SVProgressHUD.release.xcconfig */;
@@ -3808,38 +3845,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		B10BFC9631E69EB91B9EAB70A05DA95D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88D33D2697E876F38292E5253FF92F22 /* QBImagePickerController.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBImagePickerController";
-				IBSC_MODULE = QBImagePickerController;
-				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = QBImagePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B19541FCD206382F352C588EC3FE2445 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2E781A8CBAE7CD7668E091DA8A482E0 /* Seafile.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Seafile";
-				IBSC_MODULE = Seafile;
-				INFOPLIST_FILE = "Target Support Files/Seafile/ResourceBundle-Seafile-Seafile-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = Seafile;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		B27251343BC11811DB6ABA55E00E75C1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3995,6 +4000,23 @@
 			};
 			name = Debug;
 		};
+		D56D84F01C90AAC19EF7880F5B3CB129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CCBC061A43C97CE804AF04B31D57CC /* QBImagePickerController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBImagePickerController";
+				IBSC_MODULE = QBImagePickerController;
+				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QBImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		DFC506ADECFECFC7E21DEAA485EC9B58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEE74C5BFE8DC479E8DF6DF8B7010C15 /* SWTableViewCell.debug.xcconfig */;
@@ -4027,22 +4049,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EA007346F3385D355EA4C35A3EA7DB77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20CCBC061A43C97CE804AF04B31D57CC /* QBImagePickerController.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBImagePickerController";
-				IBSC_MODULE = QBImagePickerController;
-				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = QBImagePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -4129,8 +4135,8 @@
 		44A1CCCBF33EDCF952E3C5BBDA15B8ED /* Build configuration list for PBXNativeTarget "Seafile-Seafile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82624B5FF3A1AA0EF99678BCDAD56F13 /* Debug */,
-				B19541FCD206382F352C588EC3FE2445 /* Release */,
+				033BFFD7B7B0A58663C5CAE6DE16F4CA /* Debug */,
+				2DEFA6503DB8CC6E45311DC228590FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4210,8 +4216,8 @@
 		7B399F287A35155245974D7030C01458 /* Build configuration list for PBXNativeTarget "QBImagePickerController-QBImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA007346F3385D355EA4C35A3EA7DB77 /* Debug */,
-				B10BFC9631E69EB91B9EAB70A05DA95D /* Release */,
+				D56D84F01C90AAC19EF7880F5B3CB129 /* Debug */,
+				4E317B3204751AB81CE092A30ED3918A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4219,8 +4225,8 @@
 		8B337CBBA8C55DA2822D17808F760192 /* Build configuration list for PBXNativeTarget "MWPhotoBrowser-MWPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0765C24F7C0F0A7231D3BF150E5E9F8C /* Debug */,
-				22AF284F4AE961E7EE1115C03D85C323 /* Release */,
+				8A85E5D609E861299B149119C2A4D7F7 /* Debug */,
+				6784D8C29FF4705247C7B71F5D0B0572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
